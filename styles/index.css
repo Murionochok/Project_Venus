@@ -1,0 +1,11 @@
+body{
+	width: 100%;
+	height: 1000px;
+}
+
+.header{
+	width: 100%;
+	height: 7%;
+	background-color: blue;
+}
+
