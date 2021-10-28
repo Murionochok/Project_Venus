@@ -10,11 +10,12 @@
     <title>Festival project</title>
 </head>
 <body>
+
   <div class="header">
+    <div class="header-inner">
       <div class="header__logo header__logo_active">PV</div>
      
-        <input type="search" class="header__searchform">
-        <button class="header__searchform button">Search</button>
+        <input class="input" type="search" placeholder="Пошук">
 
       <button class="header__button-about-us">About Us</button>
     </div>
@@ -22,7 +23,7 @@
 
   <div class="content">
 
-    <div class="slider">
+    <div class="slider" id="width-slider">
       <div class="slider__photo"></div>
       <div class="slider__photo"></div>
       <div class="slider__photo"></div>
@@ -31,23 +32,26 @@
       <div class="slider__arrow-right"></div>
     </div>
 
-    <div class="festivals">
+    <div class="this-month-title box">THIS MONTH</div>
+
+   <div class="festivals box">
       <div class="festivals__window">
-        <div class="festivals__window_photo"></div>
         <div class="festivals__window_name"></div>
       </div>
       <div class="festivals__window">
-        <div class="festivals__window_photo"></div>
         <div class="festivals__window_name"></div>
       </div>
       <div class="festivals__window">
-        <div class="festivals__window_photo"></div>
+        <div class="festivals__window_name"></div>
+      </div>
+       <div class="festivals__window">
         <div class="festivals__window_name"></div>
       </div>
     </div>
-
   </div>
 
+
   <div class="footer"></div>
+
 </body>
 </html>
