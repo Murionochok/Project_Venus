@@ -1,13 +1,22 @@
 body{
 	width: 100%;
-	height: 1000px;
+	height: 1500px;
 }
 
 .header{
 	width: 100%;
-	height: 7%;
+	height: 4%;
 	background-color: #5c5a58;
 	
+}
+
+
+.header-inner{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
 }
 
 
@@ -18,24 +27,49 @@ body{
 
 
 
-.this-month-title{
-	width: 407px;
-	height: 76px;
-	font-family: Roboto;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 48px;
-	line-height: 56px;
-	color: #000000;
-	display: flex;
-	justify-content: flex-start;
-}
 
 .slider{
 	width: 100%;
-	height: 1000px;
+	height: 740px;
 	background: url('../photos/joey-thompson-4zN_-PKsbWw-unsplash.jpg') no-repeat center / cover;
 }
+
+.search-inner{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+.title{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 24px;
+	color: #000000;
+	margin-top: 70px;
+}
+
+.input{
+	border-radius: 22px;
+    border: none;
+    width: 70%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-family: inherit;
+    outline: none;
+    background-color: #C4C4C4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+
 
 .festivals{
 	display: flex;
@@ -45,26 +79,30 @@ body{
 
 .festivals__window{
 	width: 300px;
-	height: 400px;
+	height: 450px;
+	background: url('../photos/petar-avramoski-VzPqBD-UawI-unsplash.jpg') no-repeat center / cover;
+	margin-top: 10px;
+	margin-bottom: 110px;
+}
+
+.small-festivals__window{
+	width: 200px;
+	height: 300px;
+	background: url('../photos/petar-avramoski-VzPqBD-UawI-unsplash.jpg') no-repeat center / cover;
+	margin-top: 10px;
+	margin-bottom: 80px;
+}
+
+.advertisement{
 	background-color: grey;
-	margin-top: 50px;
+	height: 150px;
+	width: 80%;
+	margin-bottom: 100px;
+	background: url('../photos/the-organic-crave-company-ES29lILReC0-unsplash.jpg') no-repeat center/cover;
 }
 
-.input{
-	border-radius: 22px;
-    border: none;
-    width: 500px; 
-    padding-top: 7px;
-    padding-bottom: 7px;
-    font-family: inherit;
-    outline: none;
-    background-color: #C4C4C4;
-}
 
-.header-inner{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	align-items: center;
-	height: 100%;
+.footer{
+	height: 30%;
+	background: #22202C;
 }
