@@ -1,0 +1,171 @@
+body{
+	max-width: 100%;
+}
+
+.box{
+	max-width: 85%;
+	margin: 0 auto;
+}
+
+
+.header{
+	width: 100%;
+	padding: 10px 0;
+	background-color: #5c5a58;
+	
+}
+
+
+.header-inner{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+
+.header__logo{
+	color: black;
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+}
+
+
+.slider{
+	width: 100%;
+	height: 740px;
+	background: url('../photos/joey-thompson-4zN_-PKsbWw-unsplash.jpg') no-repeat center / cover;
+}
+
+.search-inner{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+
+
+.title{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 24px;
+	color: #000000;
+	margin-top: 70px;
+}
+
+.input{
+	border-radius: 22px;
+    border: none;
+   	width: 37%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    font-family: inherit;
+    outline: none;
+    background-color: #C4C4C4;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 50px;
+}
+
+
+
+
+.festivals{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+.festivals__window{
+	width: 300px;
+	height: 450px;
+	background: url('../photos/petar-avramoski-VzPqBD-UawI-unsplash.jpg') no-repeat center / cover;
+	margin-top: 10px;
+	margin-bottom: 110px;
+	transition: all 0.5s;
+	overflow: hidden;
+}
+
+.festivals__window:hover{
+	box-shadow: 10px 14px 20px grey;
+	transform: scale(1.04);
+}
+
+.festivals__window:hover .festivals-descr{
+	opacity: 1;
+}
+
+.festivals__window-box{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.festivals-descr {
+	width: inherit;
+	height: inherit;
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 18px;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	opacity: 0;
+	transition: all 1s;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+}
+
+.festivals__window-button{
+	width: 100%;
+	transition: all 1s;
+	padding: 10px 0;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+}
+
+.festivals__window-descr{
+	font-size: 14px;
+	margin: 20px 0 0 0;
+}
+
+.small-festivals__window{
+	width: 200px;
+	height: 300px;
+	background: url('../photos/petar-avramoski-VzPqBD-UawI-unsplash.jpg') no-repeat center / cover;
+	margin-top: 10px;
+	margin-bottom: 80px;
+	transition: all .5s;
+}
+
+.small-festivals__window:hover{
+	box-shadow: 10px 14px 20px grey;
+	transform: scale(1.04);
+}
+
+.small-festivals__window:hover .festivals-descr, {
+	opacity: 1;
+}
+
+
+
+.advertisement{
+	background-color: grey;
+	height: 150px;
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	background: url('../photos/the-organic-crave-company-ES29lILReC0-unsplash.jpg') no-repeat center/cover;
+}
+
+
+.footer{
+	height: 200px;
+	background: #22202C;
+}
