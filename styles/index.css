@@ -78,8 +78,13 @@ body{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	flex-wrap: wrap;
 }
 
+/* .festivals__column{
+	flex: 0 1 25%;
+	
+} */
 
 .festivals__window{
 	width: 300px;
@@ -89,6 +94,24 @@ body{
 	margin-bottom: 110px;
 	transition: all 0.5s;
 	overflow: hidden;
+}
+
+.small-festivals__window{
+	width: 200px;
+	height: 300px;
+	background: url('../photos/petar-avramoski-VzPqBD-UawI-unsplash.jpg') no-repeat center / cover;
+	margin-top: 10px;
+	margin-bottom: 80px;
+	transition: all .5s;
+}
+
+.small-festivals__window:hover{
+	box-shadow: 10px 14px 20px grey;
+	transform: scale(1.04);
+}
+
+.small-festivals__window:hover .festivals-descr {
+	opacity: 1;
 }
 
 .festivals__window:hover{
@@ -105,6 +128,10 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+
+.descr{
+	font-size: 14px;
 }
 
 .festivals-descr {
@@ -132,28 +159,10 @@ body{
 
 .festivals__window-descr{
 	font-size: 14px;
-	margin: 20px 0 0 0;
+	margin: 50px 20px 0 20px;
+	text-align: center;
+
 }
-
-.small-festivals__window{
-	width: 200px;
-	height: 300px;
-	background: url('../photos/petar-avramoski-VzPqBD-UawI-unsplash.jpg') no-repeat center / cover;
-	margin-top: 10px;
-	margin-bottom: 80px;
-	transition: all .5s;
-}
-
-.small-festivals__window:hover{
-	box-shadow: 10px 14px 20px grey;
-	transform: scale(1.04);
-}
-
-.small-festivals__window:hover .festivals-descr, {
-	opacity: 1;
-}
-
-
 
 .advertisement{
 	background-color: grey;
@@ -168,4 +177,295 @@ body{
 .footer{
 	height: 200px;
 	background: #22202C;
+}
+
+
+@media (min-width:2550px){
+	.festivals__window{
+		width: 360px;     
+		height: 540px;
+		margin-bottom: 132px;
+		margin-top: 20px;
+	}
+
+	.festivals__window:hover{
+		box-shadow: 12px 16.8px 20px grey;
+		transform: scale(1.04);
+	}
+
+	.small-festivals__window{
+		width: 450px;    
+		height: 675px;
+		margin-bottom: 165px;
+	}
+
+	.small-festivals__window:hover{
+		box-shadow: 11.5px 16.1px 20px grey;
+		transform: scale(1.04);
+	}
+
+	.title{
+		font-size: 36px;
+	}
+
+	.input{
+		padding-top: 15px;
+    	padding-bottom: 15px;
+	}
+
+	.advertisement{
+		height: 225px;
+	}
+	
+	.festivals__window-descr{
+		font-size: 21px;
+		margin: 30px 0 0 0;
+	}
+
+	.festivals__window-button{
+		padding: 15px 0;
+	}
+
+	.descr{
+		font-size: 21px;
+		margin: 30px 0 0;	
+	}
+
+	.header{
+		padding: 15px 0;
+	}
+} 
+
+ 
+
+@media (min-width: 1800px) and (max-width:2549px){
+	.festivals__window{
+		width: 360px;    /*1.2*/
+		height: 540px;
+		margin-bottom: 132px;
+	}
+
+	.festivals__window:hover{
+		box-shadow: 12px 16.8px 20px grey;
+		transform: scale(1.04);
+	}
+
+	.small-festivals__window{
+		width: 230px;     /*1.15*/
+		height: 345px;
+		margin-bottom: 92px;
+	}
+
+	.small-festivals__window:hover{
+		box-shadow: 11.5px 16.1px 20px grey;
+		transform: scale(1.04);
+	}
+
+	.title{
+		font-size: 28,8px;
+	}
+
+	.input{
+		padding-top: 12px;
+    	padding-bottom: 12px;
+	}
+
+	.advertisement{
+		height: 180px;
+	}
+	
+	.festivals__window-descr{
+		font-size: 16,8px;
+		margin: 24px 0 0 0;
+	}
+
+	.festivals__window-button{
+		padding: 12px 0;
+	}
+
+	.descr{
+		font-size: 16,8px;
+		margin: 24px 0 0;	
+	}
+
+	.header{
+		padding: 12px 0;
+	}
+}
+
+@media (max-width: 1500px){
+	.festivals__window{
+		width: 240px;            /*0.8*/
+		height: 360px;
+		margin-bottom: 88px;
+	}
+
+	.festivals__window:hover{
+		box-shadow: 8px 11.2px 20px grey;
+		transform: scale(1.04);
+	}
+
+	.small-festivals__window{
+		width: 160px;           /*0.8*/
+		height: 240px;
+		margin-bottom: 64px;
+		margin-top: 8px;
+	}
+	
+	.small-festivals__window:hover{
+		box-shadow: 9px 12px 20px grey;
+		transform: scale(1.04);
+	}
+
+	.title{
+		font-size: 19,2px;
+	}
+
+	.input{
+		padding-top: 8px;
+    	padding-bottom: 8px;
+	}
+
+	.advertisement{
+		height: 120px;
+	}
+
+	.festivals__window-descr{
+		font-size: 11,2px;
+		margin: 16px 0 0 0;
+	}
+
+	.festivals__window-button{
+		padding: 8px 0;
+	}
+
+	.descr{
+		font-size: 11,2px;
+		margin: 16px 0 0;	
+	}
+
+	.header{
+		padding: 8px 0;
+	}
+}
+
+
+@media (max-width: 1200px){
+	.festivals__window{
+		width: 180px;    /* 0.6*/
+		height: 270px;
+		margin-bottom: 66px;
+	}
+
+	.festivals__window:hover{
+		box-shadow: 12px 16.8px 20px grey;
+		transform: scale(1.04);
+	}
+
+	.small-festivals__window{
+		width: 120px;      /*0.6*/
+		height: 180px;
+		margin-bottom: 48px;
+		margin-top: 6px;
+	}
+
+	.small-festivals__window:hover{
+		box-shadow: 7px 9.8px 20px grey;
+		transform: scale(1.04);
+	}
+
+	.title{
+		font-size: 14,4px;
+		letter-spacing: 0.2px;
+	}
+
+	.input{
+		padding-top: 6px;
+    	padding-bottom: 6px;
+	}
+
+	.advertisement{
+		height: 90px;
+	}
+
+	.festivals__window-descr{
+		font-size: 8,4px;
+		margin: 12px 0 0 0;
+	}
+
+	.festivals__window-button{
+		padding: 6px 0;
+	}
+
+	.descr{
+		font-size: 8,4px;
+		margin: 12px 0 0;	
+	}
+
+	.header{
+		padding: 6px 0;
+	}
+}
+
+@media (max-width: 425px){
+	.festivals__window{
+		width: 160px;    /* 0.4*/
+		height: 238,5px;
+		margin-bottom: 58px;
+	}
+
+	.festivals{
+		justify-content: space-evenly;
+	}
+
+	.festivals__window:hover{
+		box-shadow: 12px 16.8px 20px grey;
+		transform: scale(1.04);
+	}
+
+	.small-festivals__window{
+		width: 80px;      /*0.4*/
+		height: 120px;
+		margin-bottom: 32px;
+		margin-top: 4px;
+	}
+
+	.small-festivals__window:hover{
+		box-shadow: 7px 9.8px 20px grey;
+		transform: scale(1.04);
+	}
+
+	.title{
+		font-size: 13px;
+	}
+
+	.input{
+		padding-top: 4px;
+    	padding-bottom: 4px;
+		width: 80%;
+	}
+
+	.advertisement{
+		height: 60px;
+	}
+
+	.festivals__window-descr{
+		font-size: 9px;
+		letter-spacing: 0.3px;
+		margin: 8px 0 0 0;
+	}
+
+	.festivals__window-button{
+		padding: 4px 0;
+	}
+
+	.descr{
+		font-size: 9px;
+		letter-spacing: 0.3px;
+		margin: 8px 0 0;	
+	}
+
+	.header{
+		padding: 4px 0;
+	}
 }
