@@ -1,7 +1,12 @@
+.box{
+	max-width: 85%;
+	margin: 0 auto;
+}
+
 .header{
 	width: 100%;
 	padding: 10px 0;
-	background-color: #5c5a58;
+	background-color: #ededed;
 	
 }
 .header-inner{
@@ -18,43 +23,233 @@
 	padding: 10px;
 	border-radius: 10px;
 }
+
+.input{
+	border-radius: 22px;
+    border: none;
+   	width: 37%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    font-family: inherit;
+    outline: none;
+    background-color: #C4C4C4;
+}
+
 h1{
     text-decoration: underline;
 }
 .competitor1{
     background:url('../photos/Hedgie.jpg') no-repeat center / cover;
-    width: 200px;
-	height: 200px;
-	margin-top: 10px;
-	margin-bottom: 110px;
+    width: 300px;
+	height: 300px;
 	transition: all 0.5s;
 	overflow: hidden;
 }
 .competitor2{
     background:url('../photos/gollum.png') no-repeat center / cover;
-    width: 200px;
-	height: 200px;
-	margin-top: 10px;
-	margin-bottom: 110px;
+    width: 300px;
+	height: 300px;
 	transition: all 0.5s;
 	overflow: hidden;
+	
 }
 .quartus1{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-    margin:100px;
+	margin-top: 100px;
+	margin-bottom: 70px;
+	flex-wrap: wrap;
 }
 .quartus2{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-    margin:100px;
+    margin-top: 30px;
+	margin-bottom: 150px;
+	flex-wrap: wrap;
 }
+
 .footer{
 	height: 200px;
 	background: #22202C;
 }
 body{
     margin:0px;
+}
+
+@media (max-width: 2560px){
+	.competitor1, .competitor2{  /*1.5*/
+		width: 450px;
+		height: 450px;
+	}
+
+	.quartus1{
+		margin-top: 150px;
+		margin-bottom: 105px;
+	}
+
+	.quartus2{
+		margin-top: 45px;
+		margin-bottom: 225px;
+	}
+
+	h1{
+		font-size: 48px;
+	}
+
+	.footer{
+		height: 300px;
+	}
+
+	.header{
+		padding: 15px 0;
+	}
+
+	.input{
+		padding-top: 10.5px;
+    	padding-bottom: 10.5px;
+	}
+
+}
+
+@media (max-width: 2000px){
+	.competitor1, .competitor2{  /*1*/
+		width: 300px;
+		height: 300px;
+	}
+
+	
+	.quartus1{
+		margin-top: 100px;
+		margin-bottom: 70px;
+	}
+
+	.quartus2{
+		margin-top: 30px;
+		margin-bottom: 150px;
+	}
+
+	h1{
+		font-size: 32px;
+	}
+
+	.footer{
+		height: 200px;
+	}
+
+	.header{
+		padding: 10px 0;
+	}
+
+	.input{
+		padding-top: 7px;
+    	padding-bottom: 7px;
+	}
+}
+
+@media (max-width: 1440px){
+	.competitor1, .competitor2{  /*0.8*/
+		width: 250px;
+		height: 250px;
+	}
+
+	
+	.quartus1{
+		margin-top: 80px;
+		margin-bottom: 56px;
+	}
+
+	.quartus2{
+		margin-top: 24px;
+		margin-bottom: 120px;
+	}
+
+	h1{
+		font-size: 25.6px;
+	}
+
+	.footer{
+		height: 160px;
+	}
+
+	.header{
+		padding: 8px 0;
+	}
+
+	.input{
+		padding-top: 5.6px;
+    	padding-bottom: 5.6px;
+	}
+
+}
+
+@media (max-width: 1024px){
+	.competitor1, .competitor2{  /*0.65*/
+		width: 195px;
+		height: 195px;
+	}
+
+	.quartus1{
+		margin-top: 65px;
+		margin-bottom: 45.5px;
+	}
+
+	.quartus2{
+		margin-top: 19.5px;
+		margin-bottom: 97.5px;
+	}
+	
+	h1{
+		font-size: 20.8px;
+	}
+
+	.footer{
+		height: 130px;
+	}
+
+	.header{
+		padding: 6.5px 0;
+	}
+
+	.input{
+		padding-top: 4.55px;
+    	padding-bottom: 4.55px;
+	}
+}
+
+@media (max-width: 768px){
+	.competitor1, .competitor2{  /*0.43*/
+		width: 130px;
+		height: 130px;
+	}
+
+	.quartus1{
+		margin-top: 43px;
+		margin-bottom: 30.1px;
+	}
+
+	.quartus2{
+		margin-top: 12.9px;
+		margin-bottom: 64.5px;
+	}
+
+	h1{
+		font-size: 12.8px;
+	}
+
+	.footer{
+		height: 86px;
+	}
+
+	.header{
+		padding: 4.3px 0;
+	}
+
+	.input{
+		padding-top: 3px;
+    	padding-bottom: 3px;
+	}
+
 }
