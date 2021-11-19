@@ -1,0 +1,60 @@
+.header{
+	width: 100%;
+	padding: 10px 0;
+	background-color: #5c5a58;
+	
+}
+.header-inner{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: 100%;
+}
+
+.header__logo{
+	color: black;
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+}
+h1{
+    text-decoration: underline;
+}
+.competitor1{
+    background:url('../photos/Hedgie.jpg') no-repeat center / cover;
+    width: 200px;
+	height: 200px;
+	margin-top: 10px;
+	margin-bottom: 110px;
+	transition: all 0.5s;
+	overflow: hidden;
+}
+.competitor2{
+    background:url('../photos/gollum.png') no-repeat center / cover;
+    width: 200px;
+	height: 200px;
+	margin-top: 10px;
+	margin-bottom: 110px;
+	transition: all 0.5s;
+	overflow: hidden;
+}
+.quartus1{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    margin:100px;
+}
+.quartus2{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+    margin:100px;
+}
+.footer{
+	height: 200px;
+	background: #22202C;
+}
+body{
+    margin:0px;
+}
