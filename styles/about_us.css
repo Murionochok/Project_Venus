@@ -71,6 +71,22 @@ h1{
 	flex-wrap: wrap;
 }
 
+.about_us-text{
+	background-color: d;
+	max-width: 60%;
+	text-align: center;
+	line-height: 24px;
+	font-size: 20px;
+	margin-bottom: 150px;
+	transition: all 0.5s;
+}
+
+.about_us-text:hover{
+	box-shadow: 5px 14px 50px grey;
+	transform: scale(1.04);
+
+}
+
 .footer{
 	height: 200px;
 	background: #22202C;
