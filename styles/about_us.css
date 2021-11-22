@@ -54,6 +54,34 @@ h1{
 	overflow: hidden;
 	
 }
+.inst{
+    background:url('../photos/instagram.png') no-repeat center / cover;
+    width: 125px;
+	height: 125px;
+	transition: all 0.5s;
+	overflow: hidden;
+}
+.face{
+    background:transparent url('../photos/facebook.png') no-repeat center / cover;
+    width: 125px;
+	height: 125px;
+	transition: all 0.5s;
+	overflow: hidden;
+}
+.tel{
+    background:transparent url('../photos/telegram.png') no-repeat center / cover;
+    width:  125px;
+	height:  125px;
+	transition: all 0.5s;
+	overflow: hidden;
+}
+.github{
+    background:transparent url('../photos/github.png') no-repeat center / cover;
+    width: 125px;
+	height:  125px;
+	transition: all 0.5s;
+	overflow: hidden;
+}
 .quartus1{
 	display: flex;
 	flex-direction: row;
@@ -61,6 +89,17 @@ h1{
 	margin-top: 100px;
 	margin-bottom: 70px;
 	flex-wrap: wrap;
+}
+.logos{
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: row;
+	margin-top: 100px;
+	margin-bottom: 70px;
+	flex-wrap: wrap;
+	margin-right:100px;
+	margin-left:100px;
+	width:80%;
 }
 .quartus2{
 	display: flex;
@@ -89,7 +128,7 @@ h1{
 
 .footer{
 	height: 200px;
-	background: #22202C;
+	background: #ededed;
 }
 body{
     margin:0px;
@@ -269,3 +308,28 @@ body{
 	}
 
 }
+.floating-button {
+	text-decoration: none;
+	display: inline-block;
+	width: 140px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 45px;
+	margin: 10px 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 3px;
+	font-weight: 600;
+	color: #524f4e;
+	background: white;
+	box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+	transition: .3s;
+  }
+  .floating-button:hover {
+	background: #2EE59D;
+	box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+	color: white;
+	transform: translateY(-7px);
+  }
