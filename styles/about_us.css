@@ -3,6 +3,33 @@
 	margin: 0 auto;
 }
 
+#floating-button{
+	text-decoration: none;
+	display: inline-block;
+	width: 70px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 45px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 3px;
+	font-weight: 600;
+	color: #524f4e;
+	background: white;
+	box-shadow: 0 8px 15px rgb(161, 187, 187);
+	transition: .3s;
+  }
+
+  #floating-button:hover {
+	background-color: #2EE59D;
+	box-shadow: 0 15px 20px lightcyan;
+	color: white;
+	transform: translateY(-7px);
+  }
+
+
 .header{
 	width: 100%;
 	padding: 10px 0;

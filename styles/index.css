@@ -14,6 +14,7 @@ body{
 .header{
 	width: 100%;
 	height: auto;
+	position: fixed;
 	padding: 15px 0;
 	background-color: #ededed;
 }
@@ -508,12 +509,39 @@ body{
 	font-weight: 600;
 	color: #524f4e;
 	background: white;
-	box-shadow: 0 8px 15px rgba(0, 0, 0, .1);
+	box-shadow: 0 8px 15px rgb(161, 187, 187);
 	transition: .3s;
   }
   .floating-button:hover {
 	background: #2EE59D;
-	box-shadow: 0 15px 20px rgba(46, 229, 157, .4);
+	box-shadow: 0 15px 20px lightcyan;
+	color: white;
+	transform: translateY(-7px);
+  }
+
+
+  #floating-button{
+	text-decoration: none;
+	display: inline-block;
+	width: 140px;
+	height: 45px;
+	line-height: 45px;
+	border-radius: 45px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 3px;
+	font-weight: 600;
+	color: #524f4e;
+	background: white;
+	box-shadow: 0 8px 15px rgb(161, 187, 187);
+	transition: .3s;
+  }
+
+  #floating-button:hover {
+	background-color: lightcyan;
+	box-shadow: 0 15px 20px lightcyan;
 	color: white;
 	transform: translateY(-7px);
   }
