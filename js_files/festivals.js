@@ -8,7 +8,7 @@ export const festivals = [
         "startDate": new Date(2022, 6, 19),
         "endDate": new Date(2022, 7, 17),
         "hasTentPlace": true,////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        "imageLink": '../photos/gollum.png',
+        "imageLink": 'Festival_photos\1.png',
         "LinkToOffSite": 'https://concert.ua/uk/event/upark',
     },
     {
@@ -20,7 +20,7 @@ export const festivals = [
         "startDate": new Date(2021, 11, 4),
         "endDate": new Date(2021, 11, 5),
         "hasTentPlace": true,//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        "imageLink": 'https://www.instagram.com/p/CUexyAqNJ3Y/',
+        "imageLink": 'Festival_photos\2.png',
         "LinkToOffSite":'https://concert.ua/uk/event/osocor-winter-residence',
     },
     {
@@ -32,7 +32,7 @@ export const festivals = [
         "startDate": new Date(2022, 6, 25),
         "endDate": new Date(2022, 6, 28),
         "hasTentPlace": true,/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        "imageLink": 'https://www.instagram.com/p/CUexyAqNJ3Y/',
+        "imageLink": 'Festival_photos\3.png',
         "LinkToOffSite":'https://soldout.ua/event/622-thekomakoma?lang=ua',
     },
     {
@@ -44,7 +44,7 @@ export const festivals = [
         "startDate": new Date(2021, 11, 3),
         "endDate": new Date(2021, 11, 3),
         "hasTentPlace": true,/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        "imageLink": 'https://www.instagram.com/p/CUexyAqNJ3Y/',
+        "imageLink": 'Festival_photos\4.png',
         "LinkToOffSite":'https://concert.ua/uk/event/interior-goda-2021',
     },
     {
@@ -56,7 +56,7 @@ export const festivals = [
         "startDate": new Date(2021, 11, 25),
         "endDate": new Date(2021, 11, 25),
         "hasTentPlace": true,///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        "imageLink": 'https://www.instagram.com/p/CUexyAqNJ3Y/',
+        "imageLink": 'Festival_photos\5.png',
         "LinkToOffSite":'https://balloonfest.com.ua',
     },
     {
@@ -68,7 +68,7 @@ export const festivals = [
         "startDate": new Date(2022, 7, 17),
         "endDate": new Date(2022, 7, 17),
         "hasTentPlace": true,///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        "imageLink": 'https://www.instagram.com/p/CUexyAqNJ3Y/',
+        "imageLink": 'Festival_photos\6.png',
         "LinkToOffSite":'http://fest-portal.com/ev/kiten-art-time-mezhdunarodnyj-festival-iskusstv/',
     },
     {
@@ -80,7 +80,7 @@ export const festivals = [
         "startDate": new Date(2022, 6, 25),
         "endDate": new Date(2022, 6, 28),
         "hasTentPlace": true,//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        "imageLink": 'https://www.instagram.com/p/CUexyAqNJ3Y/',
+        "imageLink": 'Festival_photos\7.png',
         "LinkToOffSite":'http://fest-portal.com/ev/mezhdunarodnyj-zvezdy-vyhodyat-na-stsenu-festival-konkurs-iskusstv/',
     },
     {
@@ -92,7 +92,7 @@ export const festivals = [
         "startDate": new Date(2022, 6, 25),
         "endDate": new Date(2022, 6, 28),
         "hasTentPlace": true,
-        "imageLink": 'https://www.instagram.com/p/CUexyAqNJ3Y/',
+        "imageLink": 'Festival_photos\8.png',
         "LinkToOffSite":'https://soldout.ua/event/599-zaxidfest?lang=ua',
     },
     {
@@ -104,7 +104,7 @@ export const festivals = [
         "startDate": new Date(2022, 7, 28),
         "endDate": new Date(2022, 7, 28),
         "hasTentPlace": true,////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        "imageLink": 'https://www.instagram.com/p/CUexyAqNJ3Y/',
+        "imageLink": 'Festival_photos\9.png',
         "LinkToOffSite":'https://soldout.ua/event/635-festival-faine-misto-2022?lang=ua',
     },
     {
@@ -116,7 +116,7 @@ export const festivals = [
         "startDate": new Date(2022, 6, 25),
         "endDate": new Date(2022, 6, 28),
         "hasTentPlace": true,
-        "imageLink": 'https://www.instagram.com/p/CUexyAqNJ3Y/',
+        "imageLink": 'Festival_photos\10.png',
         "LinkToOffSite":'http://fest-portal.com/ev/bukovina-folk-dance-iii-j-mizhnarodnij-festival-narodnogo-tantsyu/',
     },
     {
@@ -128,7 +128,7 @@ export const festivals = [
         "startDate": new Date(2022, 4, 28),
         "endDate": new Date(2022, 5, 5),
         "hasTentPlace": true,
-        "imageLink": 'https://www.instagram.com/p/CUexyAqNJ3Y/',
+        "imageLink": 'Festival_photos\11.png',
         "LinkToOffSite":'http://fest-portal.com/ev/v-mizhnarodnij-festival-konkurs-mistetstv-gold-art-fest-turechchina-z-28kvitnya-po-5-travnya-2022-roku-gotel-armas-kaplan-paradise-5/',
     },
     {
@@ -140,7 +140,7 @@ export const festivals = [
         "startDate": new Date(2022, 4, 25),
         "endDate": new Date(2022, 4, 27),
         "hasTentPlace": true,/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        "imageLink": 'https://www.instagram.com/p/CUexyAqNJ3Y/',
+        "imageLink": 'Festival_photos\12.png',
         "LinkToOffSite":'http://fest-portal.com/ev/lviv-show-time-25-27-bereznya-2022-r/',
     },
     {
@@ -152,7 +152,7 @@ export const festivals = [
         "startDate": new Date(2022, 2, 5),
         "endDate": new Date(2022, 2, 6),
         "hasTentPlace": true,////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        "imageLink": 'https://www.instagram.com/p/CUexyAqNJ3Y/',
+        "imageLink": 'Festival_photos\13.png',
         "LinkToOffSite":'http://fest-portal.com/ev/mizhnarodnij-konkurs-festival-mistetstv-pidkori-stsenu-ochna-ta-distantsijna-uchast/',
     },
     {
@@ -164,7 +164,7 @@ export const festivals = [
         "startDate": new Date(2022, 1, 8),
         "endDate": new Date(2022, 1, 8),
         "hasTentPlace": true,/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        "imageLink": 'https://www.instagram.com/p/CUexyAqNJ3Y/',
+        "imageLink": 'Festival_photos\14.png',
         "LinkToOffSite":'http://fest-portal.com/ev/mizhnarodnij-dvoturovij-bagatozhanrovij-festival-konkurs-rizdvyana-zirka/',
     },
     {
@@ -176,7 +176,7 @@ export const festivals = [
         "startDate": new Date(2021, 12, 31),
         "endDate": new Date(2022, 1, 5),
         "hasTentPlace": true,//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        "imageLink": 'https://www.instagram.com/p/CUexyAqNJ3Y/',
+        "imageLink": 'Festival_photos\15.png',
         "LinkToOffSite":'http://fest-portal.com/ev/mizhnarodnij-festival-konkurs-mistetstv-novorichne-spivzvuchchya-2021-new-year-s-consonance-2021-ladislavoyu-lyubimovoyu/',
     },
     {
@@ -188,7 +188,7 @@ export const festivals = [
         "startDate": new Date(2022, 12, 27),
         "endDate": new Date(2022, 12, 27),
         "hasTentPlace": true,/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        "imageLink": 'https://www.instagram.com/p/CUexyAqNJ3Y/',
+        "imageLink": 'Festival_photos\16.png',
         "LinkToOffSite":'http://fest-portal.com/ev/iv-vseukrayinskij-horovij-festival-rizdvyanoyi-muziki-victoria/',
     },
     {
@@ -200,7 +200,7 @@ export const festivals = [
         "startDate": new Date(2021, 12, 26),
         "endDate": new Date(2021, 12, 26),
         "hasTentPlace": true,/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        "imageLink": 'https://www.instagram.com/p/CUexyAqNJ3Y/',
+        "imageLink": 'Festival_photos\17.png',
         "LinkToOffSite":'http://fest-portal.com/ev/vseukrayinskij-festival-konkurs-talanovitij-ya/',
     },
     {
@@ -212,7 +212,7 @@ export const festivals = [
         "startDate": new Date(2021, 12, 25),
         "endDate": new Date(2021, 12, 25),
         "hasTentPlace": true,/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        "imageLink": 'https://www.instagram.com/p/CUexyAqNJ3Y/',
+        "imageLink": 'Festival_photos\18.png',
         "LinkToOffSite":'http://fest-portal.com/ev/mizhnarodnij-festival-konkurs-mistetstv-soloviov-art-xi/',
     },
     {
@@ -224,7 +224,7 @@ export const festivals = [
         "startDate": new Date(2021, 12, 25),
         "endDate": new Date(2021, 12, 25),
         "hasTentPlace": false,
-        "imageLink": 'https://www.instagram.com/p/CUexyAqNJ3Y/',
+        "imageLink": 'Festival_photos\19.png',
         "LinkToOffSite":'http://superstar.org.ua',
     },
     {
@@ -236,20 +236,20 @@ export const festivals = [
         "startDate": new Date(2022, 5, 14),
         "endDate": new Date(2022, 5, 15),
         "hasTentPlace": false,
-        "imageLink": 'https://www.instagram.com/p/CUexyAqNJ3Y/',
+        "imageLink": 'Festival_photos\20.png',
         "LinkToOffSite":'http://spacestar.kiev.ua',
     },
     {
         "id": '21',
-        "title": '. «Планета Dance Festival» – Всеукраїнський фестиваль-конкурс хореографічних мистецтв',
-        "description": 'Всеукраїнський фестиваль-конкурс хореографічних мистецтв.',
-        "location": 'Запоріжжя, ДК Орбіта',
-        "price": '500 грн.',
+        "title": 'Фестиваль-конкурс «Лавина Талантів»',
+        "description": 'Ексклюзивні нагороди, розроблені спеціально під кожний фестиваль. Безкоштовні фото и відео матеріали для всіх учасников. Безкоштовна он-лайн трансляція всього фестивалю в режимі реального часу. Виступи колективів проходять на сцені з великим екраном, на якому розміщена назва колективу під час виступу. Подарунки від спонсорів.',
+        "location": 'вул. Преображенська, 2,Київ',
+        "price": 'безкоштовно',
         "startDate": new Date(2021, 12, 19),
         "endDate": new Date(2021, 12, 19),
-        "hasTentPlace": true,/////////////////////////////////////////////////////////////////////////////////////
-        "imageLink": 'https://www.instagram.com/p/CUexyAqNJ3Y/',
-        "LinkToOffSite":'http://fest-portal.com/ev/planeta-dance-festival-vseukrayinskij-festival-konkurs-horeografichnih-mistetstv/',
+        "hasTentPlace": true,///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        "imageLink": 'Festival_photos\21.png',
+        "LinkToOffSite":'http://fest-portal.com/ev/festival-konkurs-lavina-talantiv/',
     },
     {
         "id": '22',
@@ -260,7 +260,7 @@ export const festivals = [
         "startDate": new Date(2021, 12, 24),
         "endDate": new Date(2021, 12, 26),
         "hasTentPlace": true,
-        "imageLink": 'https://www.instagram.com/p/CUexyAqNJ3Y/',
+        "imageLink": 'Festival_photos\22.png',
         "LinkToOffSite":'http://fest-portal.com/ev/winter-fest-24-26-grudnya-2021-r-sonyachna-dolina/',
     },
     {
@@ -272,7 +272,7 @@ export const festivals = [
         "startDate": new Date(2021, 12, 23),
         "endDate": new Date(2021, 12, 26),
         "hasTentPlace": true,///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        "imageLink": 'https://www.instagram.com/p/CUexyAqNJ3Y/',
+        "imageLink": 'Festival_photos\23.png',
         "LinkToOffSite":'http://fest-portal.com/ev/rizdvyana-zirka-2021-mizhnarodnij-festival-konkurs-mistetstv-z-ladislava-lyubimova/',
     },
     {
@@ -284,19 +284,19 @@ export const festivals = [
         "startDate": new Date(2021, 12, 19),
         "endDate": new Date(2021, 12, 19),
         "hasTentPlace": true,//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        "imageLink": 'https://www.instagram.com/p/CUexyAqNJ3Y/',
+        "imageLink": 'Festival_photos\24.png',
         "LinkToOffSite":'http://fest-portal.com/ev/syajvo-rizdvyanih-zirok-do-dnya-sv-mikolaya-mizhnarodnij-festival-mistetstv-m-kiyiv/',
     },
     {
         "id": '25',
-        "title": 'Фестиваль-конкурс «Лавина Талантів»',
-        "description": 'Ексклюзивні нагороди, розроблені спеціально під кожний фестиваль. Безкоштовні фото и відео матеріали для всіх учасников. Безкоштовна он-лайн трансляція всього фестивалю в режимі реального часу. Виступи колективів проходять на сцені з великим екраном, на якому розміщена назва колективу під час виступу. Подарунки від спонсорів.',
-        "location": 'вул. Преображенська, 2,Київ',
-        "price": 'безкоштовно',
+        "title": '. «Планета Dance Festival» – Всеукраїнський фестиваль-конкурс хореографічних мистецтв',
+        "description": 'Всеукраїнський фестиваль-конкурс хореографічних мистецтв.',
+        "location": 'Запоріжжя, ДК Орбіта',
+        "price": '500 грн.',
         "startDate": new Date(2021, 12, 19),
         "endDate": new Date(2021, 12, 19),
-        "hasTentPlace": true,///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-        "imageLink": 'https://www.instagram.com/p/CUexyAqNJ3Y/',
-        "LinkToOffSite":'http://fest-portal.com/ev/festival-konkurs-lavina-talantiv/',
+        "hasTentPlace": true,/////////////////////////////////////////////////////////////////////////////////////
+        "imageLink": 'Festival_photos\25.png',
+        "LinkToOffSite":'http://fest-portal.com/ev/planeta-dance-festival-vseukrayinskij-festival-konkurs-horeografichnih-mistetstv/',
     }
 ]
