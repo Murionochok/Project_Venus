@@ -35,12 +35,6 @@ body{
 }
 
 
-.slider{
-	width: 100%;
-	height: 740px;
-	background: url('../photos/joey-thompson-4zN_-PKsbWw-unsplash.jpg') no-repeat center / cover;
-}
-
 .search-inner{
 	display: flex;
 	flex-direction: column;
@@ -540,8 +534,9 @@ body{
   }
 
   #floating-button:hover {
-	background-color: lightcyan;
+	background-color: #2EE59D;
 	box-shadow: 0 15px 20px lightcyan;
 	color: white;
 	transform: translateY(-7px);
   }
+

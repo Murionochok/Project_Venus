@@ -7,6 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="../Project_Venus/js_files/main_functions.js">
+    <link rel="stylesheet" href="/simple-adaptive-slider/simple-adaptive-slider.css">
+    <link rel="stylesheet" href="/simple-adaptive-slider/simple-adaptive-slider.js">
+    <link rel="stylesheet" href="/js_files/main_functions.js">
     <title>Festival project</title>
   </head>
   <body>
@@ -21,15 +25,34 @@
 
     <div class="content">
 
+      <!-- <div class="slider">
+        <div id="slide1" class="slider__photo"></div>
+        <div id="slide2" class="slider__photo"></div>
+        <div id="slide3" class="slider__photo"></div>
+      </div> -->
+
+      <!-- Разметка слайдера (html код) -->
       <div class="slider">
-        <div class="slider__photo"></div>
-        <div class="slider__photo"></div>
-        <div class="slider__photo"></div>
-
-        <div class="slider__arrow-left"></div>
-        <div class="slider__arrow-right"></div>
+        <div class="slider__wrapper">
+          <div class="slider__items">
+            <div class="slider__item">
+             <img src="../Project_Venus/photos/slider-photos/photo_2021-11-28_16-43-23.jpg" alt="">
+            </div>
+            <div class="slider__item">
+              <img src="../Project_Venus/photos/slider-photos/photo_2021-11-28_16-43-34.jpg" alt="">
+            </div>
+            <div class="slider__item">
+              <img src="../Project_Venus/photos/slider-photos/photo_2021-11-28_16-43-38.jpg" alt="">
+            </div>
+            <div class="slider__item">
+              <img src="../Project_Venus/photos/slider-photos/photo_2021-11-28_17-08-46.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- Стрелки для перехода к предыдущему и следующему слайду -->
+        <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+        <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
       </div>
-
      
 
       <div class="box">
