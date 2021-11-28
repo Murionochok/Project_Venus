@@ -10,9 +10,8 @@ export default class Card {
         startDate = new Date(),
         endDate = new Date(),
         hasTentPlace = false,
-        numberOfTickets = 0,
         imageLink = '',
-        genre = ''
+        LinkToOffSite = ''
     } = {}) {
         this.id= id;
         this.title = title;
@@ -22,9 +21,8 @@ export default class Card {
         this.startDate = startDate;
         this.endDate = endDate;
         this.hasTentPlace = hasTentPlace;
-        this.numberOfTickets = numberOfTickets;
         this.imageLink = imageLink;
-        this.genre = genre;
+        this.LinkToOffSite = LinkToOffSite;
 
         this.render();
     }
