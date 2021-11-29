@@ -122,6 +122,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+
 }
 
 .descr{
@@ -151,6 +152,8 @@ body{
 	-o-transition: all .5s;
 	background-color: green;
 	border: none;
+	background-color:#009900;
+	color:white;
 }
 
 .festivals__window-descr{
@@ -509,8 +512,8 @@ body{
 	transition: .3s;
   }
   .floating-button:hover {
-	background: #2EE59D;
-	box-shadow: 0 15px 20px lightcyan;
+	background: #3366ff;
+	box-shadow: 0 15px 20px #ccd9ff;
 	color: white;
 	transform: translateY(-7px);
   }
@@ -519,8 +522,8 @@ body{
   #floating-button{
 	text-decoration: none;
 	display: inline-block;
-	width: 140px;
-	height: 45px;
+	width: 60px;
+	height: 60px;
 	line-height: 45px;
 	border-radius: 45px;
 	font-family: 'Montserrat', sans-serif;
@@ -530,14 +533,15 @@ body{
 	letter-spacing: 3px;
 	font-weight: 600;
 	color: #524f4e;
-	background: white;
+	background: url('../photos/logo.svg') no-repeat center / cover;
 	box-shadow: 0 8px 15px rgb(161, 187, 187);
 	transition: .3s;
+	justify-content: center;
   }
 
   #floating-button:hover {
-	background-color: #2EE59D;
-	box-shadow: 0 15px 20px lightcyan;
+	background-color: #3366ff;
+	box-shadow: 0 15px 20px #ccd9ff;
 	color: white;
 	transform: translateY(-7px);
   }
