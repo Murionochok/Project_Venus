@@ -7,7 +7,7 @@ export const festivals = [
         "price": 'Від 1649 грн.',
         "startDate": new Date(2022, 6, 19),
         "endDate": new Date(2022, 7, 17),
-        "hasTentPlace": true,////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        "hasTentPlace": true,
         "imageLink": 'Festival_photos\1.png',
         "LinkToOffSite": 'https://concert.ua/uk/event/upark',
     },
@@ -19,7 +19,7 @@ export const festivals = [
         "price": "від 350 грн.",
         "startDate": new Date(2021, 11, 4),
         "endDate": new Date(2021, 11, 5),
-        "hasTentPlace": true,//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        "hasTentPlace": true,
         "imageLink": 'Festival_photos\2.png',
         "LinkToOffSite":'https://concert.ua/uk/event/osocor-winter-residence',
     },
@@ -31,7 +31,7 @@ export const festivals = [
         "price": "від 250 грн",
         "startDate": new Date(2022, 6, 25),
         "endDate": new Date(2022, 6, 28),
-        "hasTentPlace": true,/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        "hasTentPlace": true,
         "imageLink": 'Festival_photos\3.png',
         "LinkToOffSite":'https://soldout.ua/event/622-thekomakoma?lang=ua',
     },
@@ -43,7 +43,7 @@ export const festivals = [
         "price": 'від 500 грн',
         "startDate": new Date(2021, 11, 3),
         "endDate": new Date(2021, 11, 3),
-        "hasTentPlace": true,/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        "hasTentPlace": true,
         "imageLink": 'Festival_photos\4.png',
         "LinkToOffSite":'https://concert.ua/uk/event/interior-goda-2021',
     },
@@ -55,7 +55,7 @@ export const festivals = [
         "price": 'ВХІД + ПРИВ\'ЯЗНИЙ ПОЛІТ 490 грн - дітям до 12 років, 690 грн – доросли ВХІД 50 грн - дітям 6 - 12 років, 120 грн - дорослим',
         "startDate": new Date(2021, 11, 25),
         "endDate": new Date(2021, 11, 25),
-        "hasTentPlace": true,///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        "hasTentPlace": true,
         "imageLink": 'Festival_photos\5.png',
         "LinkToOffSite":'https://balloonfest.com.ua',
     },
@@ -67,7 +67,7 @@ export const festivals = [
         "price": '230 євро',
         "startDate": new Date(2022, 7, 17),
         "endDate": new Date(2022, 7, 17),
-        "hasTentPlace": true,///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        "hasTentPlace": true,
         "imageLink": 'Festival_photos\6.png',
         "LinkToOffSite":'http://fest-portal.com/ev/kiten-art-time-mezhdunarodnyj-festival-iskusstv/',
     },
@@ -79,7 +79,7 @@ export const festivals = [
         "price": 'безкоштовно(оплата за харчування та проживання за власні кошти)',
         "startDate": new Date(2022, 6, 25),
         "endDate": new Date(2022, 6, 28),
-        "hasTentPlace": true,//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        "hasTentPlace": true,
         "imageLink": 'Festival_photos\7.png',
         "LinkToOffSite":'http://fest-portal.com/ev/mezhdunarodnyj-zvezdy-vyhodyat-na-stsenu-festival-konkurs-iskusstv/',
     },
@@ -103,7 +103,7 @@ export const festivals = [
         "price": 'від 250 грн',
         "startDate": new Date(2022, 7, 28),
         "endDate": new Date(2022, 7, 28),
-        "hasTentPlace": true,////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        "hasTentPlace": true,///////////////////////////////////////////
         "imageLink": 'Festival_photos\9.png',
         "LinkToOffSite":'https://soldout.ua/event/635-festival-faine-misto-2022?lang=ua',
     },
@@ -123,7 +123,7 @@ export const festivals = [
         "id": '11',
         "title": 'Міжнародний фестиваль-конкурс мистецтв «GOLD ART FEST»',
         "description": 'Міжнародний фестиваль-конкурс організовується с метою виявлення найбільш талановитих та яскравих виконавців, розкриття творчого потенціалу дітей та молоді, збереження самобутньої народної творчості, популяризації різних видів і напрямків творчої діяльності, підвищення професійного рівня  творчих колективів і окремих виконавців, ознайомлення дітей та керівників     з новими тенденціями і напрямками в мистецтві і педагогіці через творчу роботу та майстер-класи, сприяння культурному діалогу дітей різних країн.',
-        "location": '',//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        "location": '',/////////////////////////////////
         "price": '10200грн',
         "startDate": new Date(2022, 4, 28),
         "endDate": new Date(2022, 5, 5),
@@ -139,7 +139,7 @@ export const festivals = [
         "price": 'вхід безкоштовний',
         "startDate": new Date(2022, 4, 25),
         "endDate": new Date(2022, 4, 27),
-        "hasTentPlace": true,/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        "hasTentPlace": true,////////////////////////////////////////
         "imageLink": 'Festival_photos\12.png',
         "LinkToOffSite":'http://fest-portal.com/ev/lviv-show-time-25-27-bereznya-2022-r/',
     },
@@ -148,10 +148,10 @@ export const festivals = [
         "title": 'Міжнародний конкурс-фестиваль мистецтв «Підкори сцену»',
         "description": 'збереження і пропаганда національних культур, розвиток творчих контактів між колективами та їх керівниками, зміцнення міжнародних зв’язків між колективами та окремими виконавцями країн-учасниць, підвищення виконавської майстерності колективів і окремих виконавців',
         "location": 'Дегтярівська №49-Г Київ',
-        "price": '',//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        "price": '',/////////////////////////////////////////////
         "startDate": new Date(2022, 2, 5),
         "endDate": new Date(2022, 2, 6),
-        "hasTentPlace": true,////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        "hasTentPlace": true,///////////////////////////////////
         "imageLink": 'Festival_photos\13.png',
         "LinkToOffSite":'http://fest-portal.com/ev/mizhnarodnij-konkurs-festival-mistetstv-pidkori-stsenu-ochna-ta-distantsijna-uchast/',
     },
@@ -163,7 +163,7 @@ export const festivals = [
         "price": 'безкоштовно',
         "startDate": new Date(2022, 1, 8),
         "endDate": new Date(2022, 1, 8),
-        "hasTentPlace": true,/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        "hasTentPlace": true,////////////////////////////////////////
         "imageLink": 'Festival_photos\14.png',
         "LinkToOffSite":'http://fest-portal.com/ev/mizhnarodnij-dvoturovij-bagatozhanrovij-festival-konkurs-rizdvyana-zirka/',
     },
@@ -175,7 +175,7 @@ export const festivals = [
         "price": 'солісти – 400 грн;інструменталісти соло – 250 грн;Дуети – 250 грн. з одного учасника',
         "startDate": new Date(2021, 12, 31),
         "endDate": new Date(2022, 1, 5),
-        "hasTentPlace": true,//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        "hasTentPlace": true,/////////////////////////////////////////////
         "imageLink": 'Festival_photos\15.png',
         "LinkToOffSite":'http://fest-portal.com/ev/mizhnarodnij-festival-konkurs-mistetstv-novorichne-spivzvuchchya-2021-new-year-s-consonance-2021-ladislavoyu-lyubimovoyu/',
     },
@@ -187,7 +187,7 @@ export const festivals = [
         "price": ': 4000 грн. з  хорового колективу та 3000 грн.  з ансамблю, гість 300 грн.',
         "startDate": new Date(2022, 12, 27),
         "endDate": new Date(2022, 12, 27),
-        "hasTentPlace": true,/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        "hasTentPlace": true,////////////////////////////////////////////
         "imageLink": 'Festival_photos\16.png',
         "LinkToOffSite":'http://fest-portal.com/ev/iv-vseukrayinskij-horovij-festival-rizdvyanoyi-muziki-victoria/',
     },
@@ -199,7 +199,7 @@ export const festivals = [
         "price": 'безкоштовно',
         "startDate": new Date(2021, 12, 26),
         "endDate": new Date(2021, 12, 26),
-        "hasTentPlace": true,/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        "hasTentPlace": true,////////////////////////////////////////////////
         "imageLink": 'Festival_photos\17.png',
         "LinkToOffSite":'http://fest-portal.com/ev/vseukrayinskij-festival-konkurs-talanovitij-ya/',
     },
@@ -211,7 +211,7 @@ export const festivals = [
         "price": 'Для індивідуальних учасників: вокал, інструментальне мистецтво, художнє слово – 500 грн; Для дуетів – 400 грн. з кожного учасника; Тріо, квартетів – 350 грн з кожного учасника; Для колективів малих форм (до 6 учасників) – 300 грн. з кожного учасника; Для ансамблів від 7 і більше – 250 грн. з кожного учасника.',
         "startDate": new Date(2021, 12, 25),
         "endDate": new Date(2021, 12, 25),
-        "hasTentPlace": true,/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        "hasTentPlace": true,////////////////////////////////////////////////
         "imageLink": 'Festival_photos\18.png',
         "LinkToOffSite":'http://fest-portal.com/ev/mizhnarodnij-festival-konkurs-mistetstv-soloviov-art-xi/',
     },
@@ -247,7 +247,7 @@ export const festivals = [
         "price": 'безкоштовно',
         "startDate": new Date(2021, 12, 19),
         "endDate": new Date(2021, 12, 19),
-        "hasTentPlace": true,///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        "hasTentPlace": true,//////////////////////////////////////
         "imageLink": 'Festival_photos\21.png',
         "LinkToOffSite":'http://fest-portal.com/ev/festival-konkurs-lavina-talantiv/',
     },
@@ -271,7 +271,7 @@ export const festivals = [
         "price": 'солісти – 400 грн. дуети – 500 гр колективи від 3-х до 5 осіб. – 200 грн. з учасника',
         "startDate": new Date(2021, 12, 23),
         "endDate": new Date(2021, 12, 26),
-        "hasTentPlace": true,///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        "hasTentPlace": true,//////////////////////////////////////////
         "imageLink": 'Festival_photos\23.png',
         "LinkToOffSite":'http://fest-portal.com/ev/rizdvyana-zirka-2021-mizhnarodnij-festival-konkurs-mistetstv-z-ladislava-lyubimova/',
     },
@@ -283,7 +283,7 @@ export const festivals = [
         "price": 'безкоштовно',
         "startDate": new Date(2021, 12, 19),
         "endDate": new Date(2021, 12, 19),
-        "hasTentPlace": true,//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        "hasTentPlace": true,/////////////////////////////////
         "imageLink": 'Festival_photos\24.png',
         "LinkToOffSite":'http://fest-portal.com/ev/syajvo-rizdvyanih-zirok-do-dnya-sv-mikolaya-mizhnarodnij-festival-mistetstv-m-kiyiv/',
     },
@@ -295,8 +295,8 @@ export const festivals = [
         "price": '500 грн.',
         "startDate": new Date(2021, 12, 19),
         "endDate": new Date(2021, 12, 19),
-        "hasTentPlace": true,/////////////////////////////////////////////////////////////////////////////////////
+        "hasTentPlace": true,
         "imageLink": 'Festival_photos\25.png',
         "LinkToOffSite":'http://fest-portal.com/ev/planeta-dance-festival-vseukrayinskij-festival-konkurs-horeografichnih-mistetstv/',
     }
-]
+];

@@ -7,148 +7,61 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="../Project_Venus/js_files/main_functions.js">
-    <link rel="stylesheet" href="/simple-adaptive-slider/simple-adaptive-slider.css">
-    <link rel="stylesheet" href="/simple-adaptive-slider/simple-adaptive-slider.js">
-    <link rel="stylesheet" href="/js_files/main_functions.js">
+    <link rel="stylesheet" href="simple-adaptive-slider/simple-adaptive-slider.css">
     <title>Festival project</title>
   </head>
   <body>
 
-    <div class="header">
+    <header class="header">
       <div class="header-inner box">
         <a href="index.html" id="floating-button" valign="middle">PV</a>
         <input class="input" type="search" placeholder="Пошук">
         <a href="about_us.html" class="floating-button">About us</a>
       </div>
-    </div>
+    </header>
 
-    <div class="content">
+    <main class="content">
 
-      <!-- <div class="slider">
-        <div id="slide1" class="slider__photo"></div>
-        <div id="slide2" class="slider__photo"></div>
-        <div id="slide3" class="slider__photo"></div>
-      </div> -->
-
+      <div id="root"></div>
       <!-- Разметка слайдера (html код) -->
       <div class="slider">
         <div class="slider__wrapper">
-          <div class="slider__items">
-            <div class="slider__item">
-             <img src="photos\slider-photos\photo_2021-11-28_16-43-23.jpg" alt="">
-            </div>
-            <div class="slider__item">
-              <img src="../Project_Venus/photos/slider-photos/photo_2021-11-28_16-43-34.jpg" alt="">
-            </div>
-            <div class="slider__item">
-              <img src="../Project_Venus/photos/slider-photos/photo_2021-11-28_16-43-38.jpg" alt="">
-            </div>
-            <div class="slider__item">
-              <img src="../Project_Venus/photos/slider-photos/photo_2021-11-28_17-08-46.jpg" alt="">
-            </div>
+        <div class="slider__items">
+          <div class="slider__item">
+           <img src="photos\slider-photos\photo_2021-11-28_16-43-23.jpg" alt="">
           </div>
+          <div class="slider__item">
+            <img src="../Project_Venus/photos/slider-photos/photo_2021-11-28_16-43-34.jpg" alt="">
+          </div>
+          <div class="slider__item">
+            <img src="../Project_Venus/photos/slider-photos/photo_2021-11-28_16-43-38.jpg" alt="">
+          </div>
+          <div class="slider__item">
+            <img src="../Project_Venus/photos/slider-photos/photo_2021-11-28_17-08-46.jpg" alt="">
+          </div>
+        </div>
         </div>
         <!-- Стрелки для перехода к предыдущему и следующему слайду -->
         <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
         <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
       </div>
-     
+
 
       <div class="box">
-        <div class="title">THIS MONTH</div>
-      </div>
-
-      <div class="box">
-        <div class="festivals">
-         <!--  <div class="festivals__column"> -->
-          <div class="festivals__window">
-            <div class="festivals-descr">
-              <div class="festivals__window-box">
-                <div class="festivals__window-descr">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
-                <button class="festivals__window-button">Details</button>
-              </div>
-            </div>
-          </div>
-          <div class="festivals__window">
-            <div class="festivals-descr">
-              <div class="festivals__window-box">
-                <div class="festivals__window-descr">Короткий опис</div>
-                <button class="festivals__window-button">Details</button>
-              </div>
-            </div>
-          </div>
-          <div class="festivals__window">
-            <div class="festivals-descr">
-              <div class="festivals__window-box">
-                <div class="festivals__window-descr">Короткий опис</div>
-                <button class="festivals__window-button">Details</button>
-              </div>
-            </div>
-          </div>
-          <div class="festivals__window">
-            <div class="festivals-descr">
-              <div class="festivals__window-box">
-                <div class="festivals__window-descr">Короткий опис</div>
-                <button class="festivals__window-button">Details</button>
-              </div>
-            </div>
-          </div>
-          <!--  </div> -->
-        </div>
-      </div>
-
-      <div class="box">
-        <div class="advertisement">Крута реклама</div>
-      </div>
-
-      <div class="box">
-        <div class="title">MOST POPULAR</div>
-      </div>
-
-      <div class="box">
-        <div class="festivals">
-         <!--  <div class="festivals__column"> -->
-          <div class="festivals__window">
-           <div class="festivals-descr">
-            <div class="festivals__window-box">
-              <div class="festivals__window-descr">Короткий опис</div>
-              <button class="festivals__window-button">Details</button>
-            </div>
-          </div>
-        </div>
-        <div class="festivals__window">
-         <div class="festivals-descr">
-          <div class="festivals__window-box">
-            <div class="festivals__window-descr">Короткий опис</div>
-            <button class="festivals__window-button">Details</button>
-          </div>
-        </div>
-      </div>
-      <div class="festivals__window">
-        <div class="festivals-descr">
-          <div class="festivals__window-box">
-            <div class="festivals__window-descr">Короткий опис</div>
-            <button class="festivals__window-button">Details</button>
-          </div>
-        </div>
-      </div>
-      <div class="festivals__window">
-        <div class="festivals-descr">
-          <div class="festivals__window-box">
-            <div class="festivals__window-descr">Короткий опис</div>
-            <button class="festivals__window-button">Details</button>
-          </div>
-        </div>
-      </div>
-
+      <div class="title">THIS MONTH</div>
     </div>
-    <!--  </div> -->
-  </div>
 
-  <div class="box">
-    <div class="festivals">
-     <!--  <div class="festivals__column"> -->
+      <div class="box">
+      <div class="festivals">
+      <!--  <div class="festivals__column"> -->
+      <div class="festivals__window">
+        <div class="festivals-descr">
+          <div class="festivals__window-box">
+            <div class="festivals__window-descr">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
+            <button class="festivals__window-button">Details</button>
+          </div>
+        </div>
+      </div>
       <div class="festivals__window">
         <div class="festivals-descr">
           <div class="festivals__window-box">
@@ -157,6 +70,37 @@
           </div>
         </div>
       </div>
+      <div class="festivals__window">
+        <div class="festivals-descr">
+          <div class="festivals__window-box">
+            <div class="festivals__window-descr">Короткий опис</div>
+            <button class="festivals__window-button">Details</button>
+          </div>
+        </div>
+      </div>
+      <div class="festivals__window">
+        <div class="festivals-descr">
+          <div class="festivals__window-box">
+            <div class="festivals__window-descr">Короткий опис</div>
+            <button class="festivals__window-button">Details</button>
+          </div>
+        </div>
+      </div>
+      <!--  </div> -->
+      </div>
+      </div>
+
+      <div class="box">
+      <div class="advertisement">Крута реклама</div>
+      </div>
+
+      <div class="box">
+      <div class="title">MOST POPULAR</div>
+      </div>
+
+      <div class="box">
+      <div class="festivals">
+      <!--  <div class="festivals__column"> -->
       <div class="festivals__window">
        <div class="festivals-descr">
         <div class="festivals__window-box">
@@ -164,100 +108,151 @@
           <button class="festivals__window-button">Details</button>
         </div>
       </div>
-    </div>
-    <div class="festivals__window">
-      <div class="festivals-descr">
-        <div class="festivals__window-box">
-          <div class="festivals__window-descr">Короткий опис</div>
-          <button class="festivals__window-button">Details</button>
-        </div>
       </div>
-    </div>
-    <div class="festivals__window">
+      <div class="festivals__window">
       <div class="festivals-descr">
-        <div class="festivals__window-box">
-          <div class="festivals__window-descr">Короткий опис</div>
-          <button class="festivals__window-button">Details</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--  </div> -->
-</div>
-
-<div class="box">
-  <div class="advertisement">Крута реклама</div>
-</div>
-
-
-<div class="box">
-  <div class="festivals">
-    <div class="small-festivals__window">
-      <div class="descr">Короткий опис</div>
-    </div>
-    <div class="small-festivals__window">
-      <div class="descr">Короткий опис</div>
-    </div>
-    <div class="small-festivals__window">
-      <div class="descr">Короткий опис</div>
-    </div>
-    <div class="small-festivals__window">
-      <div class="descr">Короткий опис</div>
-    </div>
-    <div class="small-festivals__window">
-      <div class="descr">Короткий опис</div>
-    </div>
-    <div class="small-festivals__window">
-      <div class="descr">Короткий опис</div>
-    </div>
-  </div>
-</div>
-
-<div class="title box">IN YOUR CITY</div>
-
-<div class="box">
-  <div class="festivals">
-   <!--  <div class="festivals__column"> -->
-    <div class="festivals__window">
-     <div class="festivals-descr">
       <div class="festivals__window-box">
         <div class="festivals__window-descr">Короткий опис</div>
         <button class="festivals__window-button">Details</button>
       </div>
-    </div>
-  </div>
-  <div class="festivals__window">
-    <div class="festivals-descr">
+      </div>
+      </div>
+      <div class="festivals__window">
+      <div class="festivals-descr">
       <div class="festivals__window-box">
         <div class="festivals__window-descr">Короткий опис</div>
         <button class="festivals__window-button">Details</button>
       </div>
-    </div>
-  </div>
-  <div class="festivals__window">
-   <div class="festivals-descr">
-    <div class="festivals__window-box">
+      </div>
+      </div>
+      <div class="festivals__window">
+      <div class="festivals-descr">
+      <div class="festivals__window-box">
+        <div class="festivals__window-descr">Короткий опис</div>
+        <button class="festivals__window-button">Details</button>
+      </div>
+      </div>
+      </div>
+
+      </div>
+      <!--  </div> -->
+      </div>
+
+      <div class="box">
+      <div class="festivals">
+      <!--  <div class="festivals__column"> -->
+      <div class="festivals__window">
+      <div class="festivals-descr">
+      <div class="festivals__window-box">
+        <div class="festivals__window-descr">Короткий опис</div>
+        <button class="festivals__window-button">Details</button>
+      </div>
+      </div>
+      </div>
+      <div class="festivals__window">
+      <div class="festivals-descr">
+      <div class="festivals__window-box">
       <div class="festivals__window-descr">Короткий опис</div>
       <button class="festivals__window-button">Details</button>
-    </div>
-  </div>
-</div>
-<div class="festivals__window">
-  <div class="festivals-descr">
-    <div class="festivals__window-box">
+      </div>
+      </div>
+      </div>
+      <div class="festivals__window">
+      <div class="festivals-descr">
+      <div class="festivals__window-box">
       <div class="festivals__window-descr">Короткий опис</div>
       <button class="festivals__window-button">Details</button>
-    </div>
-  </div>
-</div>
-</div>
-<!--  </div> -->
-</div>
-</div>
+      </div>
+      </div>
+      </div>
+      <div class="festivals__window">
+      <div class="festivals-descr">
+      <div class="festivals__window-box">
+      <div class="festivals__window-descr">Короткий опис</div>
+      <button class="festivals__window-button">Details</button>
+      </div>
+      </div>
+      </div>
+      </div>
+      <!--  </div> -->
+      </div>
+
+      <div class="box">
+      <div class="advertisement">Крута реклама</div>
+      </div>
 
 
-  <div class="footer"><div id="root"></div></div>
+      <div class="box">
+      <div class="festivals">
+      <div class="small-festivals__window">
+      <div class="descr">Короткий опис</div>
+      </div>
+      <div class="small-festivals__window">
+      <div class="descr">Короткий опис</div>
+      </div>
+      <div class="small-festivals__window">
+      <div class="descr">Короткий опис</div>
+      </div>
+      <div class="small-festivals__window">
+      <div class="descr">Короткий опис</div>
+      </div>
+      <div class="small-festivals__window">
+      <div class="descr">Короткий опис</div>
+      </div>
+      <div class="small-festivals__window">
+      <div class="descr">Короткий опис</div>
+      </div>
+      </div>
+      </div>
 
-  <!-- <script src="js_files/main_functions.js" type="module"></script> -->
+      <div class="title box">IN YOUR CITY</div>
+
+      <div class="box">
+      <div class="festivals">
+      <!--  <div class="festivals__column"> -->
+      <div class="festivals__window">
+      <div class="festivals-descr">
+      <div class="festivals__window-box">
+      <div class="festivals__window-descr">Короткий опис</div>
+      <button class="festivals__window-button">Details</button>
+      </div>
+      </div>
+      </div>
+      <div class="festivals__window">
+      <div class="festivals-descr">
+      <div class="festivals__window-box">
+      <div class="festivals__window-descr">Короткий опис</div>
+      <button class="festivals__window-button">Details</button>
+      </div>
+      </div>
+      </div>
+      <div class="festivals__window">
+      <div class="festivals-descr">
+      <div class="festivals__window-box">
+      <div class="festivals__window-descr">Короткий опис</div>
+      <button class="festivals__window-button">Details</button>
+      </div>
+      </div>
+      </div>
+      <div class="festivals__window">
+      <div class="festivals-descr">
+      <div class="festivals__window-box">
+      <div class="festivals__window-descr">Короткий опис</div>
+      <button class="festivals__window-button">Details</button>
+      </div>
+      </div>
+      </div>
+      </div>
+      <!--  </div> -->
+      </div>
+</main>
+
+
+  <footer class="footer">
+  </footer>
+
+
+    <script  src="simple-adaptive-slider/simple-adaptive-slider.js"></script>
+    <script src="js_files/main_functions.js" type="module"></script>
 </body>
 </html>
