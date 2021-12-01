@@ -91,6 +91,54 @@ img {
 	overflow: hidden;
 }
 
+#fest1{
+	background: url('../Festival_photos/UPark\ 2022.jpg') no-repeat center / cover;
+}
+
+#fest2{
+	background: url('../Festival_photos/UPark\ 2022.jpg') no-repeat center / cover;
+}
+
+#fest3{
+	background: url('../Festival_photos/UPark\ 2022.jpg') no-repeat center / cover;
+}
+
+#fest4{
+	background: url('../Festival_photos/UPark\ 2022.jpg') no-repeat center / cover;
+}
+
+#fest5{
+	background: url('../Festival_photos/UPark\ 2022.jpg') no-repeat center / cover;
+}
+
+#fest6{
+	background: url('../Festival_photos/UPark\ 2022.jpg') no-repeat center / cover;
+}
+
+#fest7{
+	background: url('../Festival_photos/UPark\ 2022.jpg') no-repeat center / cover;
+}
+
+#fest8{
+	background: url('../Festival_photos/UPark\ 2022.jpg') no-repeat center / cover;
+}
+
+#fest9{
+	background: url('../Festival_photos/UPark\ 2022.jpg') no-repeat center / cover;
+}
+
+#fest10{
+	background: url('../Festival_photos/UPark\ 2022.jpg') no-repeat center / cover;
+}
+
+#fest11{
+	background: url('../Festival_photos/UPark\ 2022.jpg') no-repeat center / cover;
+}
+
+#fest12{
+	background: url('../Festival_photos/UPark\ 2022.jpg') no-repeat center / cover;
+}
+
 .small-festivals__window{
 	width: 200px;
 	height: 300px;
@@ -98,6 +146,30 @@ img {
 	margin-top: 10px;
 	margin-bottom: 80px;
 	transition: all .5s;
+}
+
+#fest13{
+	background: url('../Festival_photos/UPark\ 2022.jpg') no-repeat center / cover;
+}
+
+#fest14{
+	background: url('../Festival_photos/UPark\ 2022.jpg') no-repeat center / cover;
+}
+
+#fest15{
+	background: url('../Festival_photos/UPark\ 2022.jpg') no-repeat center / cover;
+}
+
+#fest16{
+	background: url('../Festival_photos/UPark\ 2022.jpg') no-repeat center / cover;
+}
+
+#fest17{
+	background: url('../Festival_photos/UPark\ 2022.jpg') no-repeat center / cover;
+}
+
+#fest18{
+	background: url('../Festival_photos/UPark\ 2022.jpg') no-repeat center / cover;
 }
 
 .small-festivals__window:hover{
@@ -118,31 +190,47 @@ img {
 	opacity: 1;
 }
 
-.festivals__window-box{
+.festivals__window-box-column{
 	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
-
 }
 
-.descr{
-	font-size: 14px;
+.festivals__window-box-row{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
 }
 
-.festivals-descr {
-	width: inherit;
-	height: inherit;
+.festivals__window-title{
+	font-size: 25px;
+	margin-top: 30px;
+	font-weight: 700;
+}
+
+.festivals__window-descr{
+	font-size: 16px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 50px;
 	text-align: center;
-	letter-spacing: 1px;
-	font-size: 18px;
-	position: absolute;
-	background-color: rgba(0, 0, 0, 0.5);
-	color: white;
-	opacity: 0;
-	transition: all 1s;
-	-webkit-transition: all .5s;
-	-o-transition: all .5s;
+
+}
+
+.festivals__window-date{
+	font-size: 25px;
+	margin-right: 50%;
+	margin-top: 10px;
+}
+
+.festivals__window-location{
+	font-size: 20px;
+}
+
+.festivals__window-price{
+	font-size: 20px;
 }
 
 .festivals__window-button{
@@ -156,12 +244,28 @@ img {
 	color:white;
 }
 
-.festivals__window-descr{
-	font-size: 14px;
-	margin: 50px 20px 0 20px;
-	text-align: center;
 
+.descr{
+	font-size: 14px;
 }
+
+.festivals-descr {
+	width: inherit;
+	height: inherit;
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 18px;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.8);
+	color: white;
+	opacity: 0;
+	transition: all 1s;
+	-webkit-transition: all .5s;
+	-o-transition: all .5s;
+}
+
+
+
 
 .advertisement{
 	background-color: grey;

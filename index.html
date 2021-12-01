@@ -1,37 +1,39 @@
 <!doctype html>
-  <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="styles/index.css">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="simple-adaptive-slider/simple-adaptive-slider.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="simple-adaptive-slider/simple-adaptive-slider.css">
 
-    <script defer src="simple-adaptive-slider/simple-adaptive-slider.js"></script>
-    <script src="js_files/main_functions.js" type="module"></script>
-    <title>Festival project</title>
-  </head>
-  <body>
+  <script defer src="simple-adaptive-slider/simple-adaptive-slider.js"></script>
+  <script src="js_files/main_functions.js" type="module"></script>
+  <title>Festival project</title>
+</head>
 
-    <header class="header">
-      <div class="header-inner box">
-        <a href="index.html" id="floating-button" valign="middle">PV</a>
-        <input class="input" type="search" placeholder="Пошук">
-        <a href="about_us.html" class="floating-button">About us</a>
-      </div>
-    </header>
+<body>
 
-    <main class="content">
+  <header class="header">
+    <div class="header-inner box">
+      <a href="index.html" id="floating-button" valign="middle">PV</a>
+      <input class="input" type="search" placeholder="Пошук">
+      <a href="about_us.html" class="floating-button">About us</a>
+    </div>
+  </header>
 
-      <div id="root"></div>
-      <!-- Разметка слайдера (html код) -->
-      <div class="slider">
-        <div class="slider__wrapper">
+  <main class="content">
+
+    <div id="root"></div>
+    <!-- Разметка слайдера (html код) -->
+    <div class="slider">
+      <div class="slider__wrapper">
         <div class="slider__items">
           <div class="slider__item">
-           <img src="photos\slider-photos\photo_2021-11-28_16-43-23.jpg" alt="">
+            <img src="photos\slider-photos\photo_2021-11-28_16-43-23.jpg" alt="">
           </div>
           <div class="slider__item">
             <img src="../Project_Venus/photos/slider-photos/photo_2021-11-28_16-43-34.jpg" alt="">
@@ -43,234 +45,312 @@
             <img src="../Project_Venus/photos/slider-photos/photo_2021-11-28_17-08-46.jpg" alt="">
           </div>
         </div>
-        </div>
-        <!-- Стрелки для перехода к предыдущему и следующему слайду -->
-        <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
-        <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
       </div>
+      <!-- Стрелки для перехода к предыдущему и следующему слайду -->
+      <a class="slider__control slider__control_prev" href="#" role="button" data-slide="prev"></a>
+      <a class="slider__control slider__control_next" href="#" role="button" data-slide="next"></a>
+    </div>
 
 
-      <div class="box">
+    <div class="box">
       <div class="title">THIS MONTH</div>
     </div>
 
-      <div class="box">
+    <div class="box">
       <div class="festivals">
-      <!--  <div class="festivals__column"> -->
-      <div class="festivals__window">
-        <div class="festivals-descr">
-          <div class="festivals__window-box">
-            <div class="festivals__window-descr">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
-            <button class="festivals__window-button">Details</button>
+        <div id="fest1" class="festivals__window">
+          <div class="festivals-descr">
+            <div class="festivals__window-box-column">
+              <div class="festivals__window-date">2022.6.19</div>
+              <div class="festivals__window-title">UPARK 2022</div>
+              <div class="festivals__window-descr">UPark Festival - це високий рівень артистів і особлива атмосфера,
+                це
+                глядачі, для яких музика - невід'ємна частина життя.</div>         <!--Приклад вікна-->
+              <div class="festivals__window-location">Київ,Україна</div>
+              <div class="festivals__window-price"><b>1649 грн</b>
+              </div>
+              <button class="festivals__window-button">Купити квиток</button>
+            </div>
+          </div>
+        </div>
+        <div id="fest2" class="festivals__window">
+          <div class="festivals-descr">
+            <div class="festivals__window-box-column">
+              <div class="festivals__window-date">2022.6.19</div>
+              <div class="festivals__window-title">UPARK 2022</div>
+              <div class="festivals__window-descr">UPark Festival - це високий рівень артистів і особлива атмосфера,
+                це
+                глядачі, для яких музика - невід'ємна частина життя.</div>
+              <div class="festivals__window-location">Київ,Україна</div>
+              <div class="festivals__window-price"><b>1649 грн</b>
+              </div>
+              <button class="festivals__window-button">Купити квиток</button>
+            </div>
+          </div>
+        </div>
+        <div id="fest3" class="festivals__window">
+          <div class="festivals-descr">
+            <div class="festivals__window-box-column">
+              <div class="festivals__window-date">2022.6.19</div>
+              <div class="festivals__window-title">UPARK 2022</div>
+              <div class="festivals__window-descr">UPark Festival - це високий рівень артистів і особлива атмосфера,
+                це
+                глядачі, для яких музика - невід'ємна частина життя.</div>
+              <div class="festivals__window-location">Київ,Україна</div>
+              <div class="festivals__window-price"><b>1649 грн</b>
+              </div>
+              <button class="festivals__window-button">Купити квиток</button>
+            </div>
+          </div>
+        </div>
+        <div id="fest4" class="festivals__window">
+          <div class="festivals-descr">
+            <div class="festivals__window-box-column">
+              <div class="festivals__window-date">2022.6.19</div>
+              <div class="festivals__window-title">UPARK 2022</div>
+              <div class="festivals__window-descr">UPark Festival - це високий рівень артистів і особлива атмосфера,
+                це
+                глядачі, для яких музика - невід'ємна частина життя.</div>
+              <div class="festivals__window-location">Київ,Україна</div>
+              <div class="festivals__window-price"><b>1649 грн</b>
+              </div>
+              <button class="festivals__window-button">Купити квиток</button>
+            </div>
           </div>
         </div>
       </div>
-      <div class="festivals__window">
-        <div class="festivals-descr">
-          <div class="festivals__window-box">
-            <div class="festivals__window-descr">Короткий опис</div>
-            <button class="festivals__window-button">Details</button>
-          </div>
-        </div>
-      </div>
-      <div class="festivals__window">
-        <div class="festivals-descr">
-          <div class="festivals__window-box">
-            <div class="festivals__window-descr">Короткий опис</div>
-            <button class="festivals__window-button">Details</button>
-          </div>
-        </div>
-      </div>
-      <div class="festivals__window">
-        <div class="festivals-descr">
-          <div class="festivals__window-box">
-            <div class="festivals__window-descr">Короткий опис</div>
-            <button class="festivals__window-button">Details</button>
-          </div>
-        </div>
-      </div>
-      <!--  </div> -->
-      </div>
-      </div>
+    </div>
 
-      <div class="box">
+    <div class="box">
       <div class="advertisement">Крута реклама</div>
-      </div>
+    </div>
 
-      <div class="box">
+    <div class="box">
       <div class="title">MOST POPULAR</div>
-      </div>
+    </div>
 
-      <div class="box">
+    <div class="box">
       <div class="festivals">
-      <!--  <div class="festivals__column"> -->
-      <div class="festivals__window">
-       <div class="festivals-descr">
-        <div class="festivals__window-box">
-          <div class="festivals__window-descr">Короткий опис</div>
-          <button class="festivals__window-button">Details</button>
+        <div id="fest5" class="festivals__window">
+          <div class="festivals-descr">
+            <div class="festivals__window-box-column">
+              <div class="festivals__window-date">2022.6.19</div>
+              <div class="festivals__window-title">UPARK 2022</div>
+              <div class="festivals__window-descr">UPark Festival - це високий рівень артистів і особлива атмосфера,
+                це
+                глядачі, для яких музика - невід'ємна частина життя.</div>
+              <div class="festivals__window-location">Київ,Україна</div>
+              <div class="festivals__window-price"><b>1649 грн</b>
+              </div>
+              <button class="festivals__window-button">Купити квиток</button>
+            </div>
+          </div>
+        </div>
+        <div id="fest6" class="festivals__window">
+          <div class="festivals-descr">
+            <div class="festivals__window-box-column">
+              <div class="festivals__window-date">2022.6.19</div>
+              <div class="festivals__window-title">UPARK 2022</div>
+              <div class="festivals__window-descr">UPark Festival - це високий рівень артистів і особлива атмосфера,
+                це
+                глядачі, для яких музика - невід'ємна частина життя.</div>
+              <div class="festivals__window-location">Київ,Україна</div>
+              <div class="festivals__window-price"><b>1649 грн</b>
+              </div>
+              <button class="festivals__window-button">Купити квиток</button>
+            </div>
+          </div>
+        </div>
+        <div id="fest7" class="festivals__window">
+          <div class="festivals-descr">
+            <div class="festivals__window-box-column">
+              <div class="festivals__window-date">2022.6.19</div>
+              <div class="festivals__window-title">UPARK 2022</div>
+              <div class="festivals__window-descr">UPark Festival - це високий рівень артистів і особлива атмосфера,
+                це
+                глядачі, для яких музика - невід'ємна частина життя.</div>
+              <div class="festivals__window-location">Київ,Україна</div>
+              <div class="festivals__window-price"><b>1649 грн</b>
+              </div>
+              <button class="festivals__window-button">Купити квиток</button>
+            </div>
+          </div>
+        </div>
+        <div id="fest8" class="festivals__window">
+          <div class="festivals-descr">
+            <div class="festivals__window-box-column">
+              <div class="festivals__window-date">2022.6.19</div>
+              <div class="festivals__window-title">UPARK 2022</div>
+              <div class="festivals__window-descr">UPark Festival - це високий рівень артистів і особлива атмосфера,
+                це
+                глядачі, для яких музика - невід'ємна частина життя.</div>
+              <div class="festivals__window-location">Київ,Україна</div>
+              <div class="festivals__window-price"><b>1649 грн</b>
+              </div>
+              <button class="festivals__window-button">Купити квиток</button>
+            </div>
+          </div>
         </div>
       </div>
-      </div>
-      <div class="festivals__window">
-      <div class="festivals-descr">
-      <div class="festivals__window-box">
-        <div class="festivals__window-descr">Короткий опис</div>
-        <button class="festivals__window-button">Details</button>
-      </div>
-      </div>
-      </div>
-      <div class="festivals__window">
-      <div class="festivals-descr">
-      <div class="festivals__window-box">
-        <div class="festivals__window-descr">Короткий опис</div>
-        <button class="festivals__window-button">Details</button>
-      </div>
-      </div>
-      </div>
-      <div class="festivals__window">
-      <div class="festivals-descr">
-      <div class="festivals__window-box">
-        <div class="festivals__window-descr">Короткий опис</div>
-        <button class="festivals__window-button">Details</button>
-      </div>
-      </div>
-      </div>
+    </div>
 
-      </div>
-      <!--  </div> -->
-      </div>
-
-      <div class="box">
+    <div class="box">
       <div class="festivals">
-      <!--  <div class="festivals__column"> -->
-      <div class="festivals__window">
-      <div class="festivals-descr">
-      <div class="festivals__window-box">
-        <div class="festivals__window-descr">Короткий опис</div>
-        <button class="festivals__window-button">Details</button>
+        <div id="fest9" class="festivals__window">
+          <div class="festivals-descr">
+            <div class="festivals__window-box-column">
+              <div class="festivals__window-date">2022.6.19</div>
+              <div class="festivals__window-title">UPARK 2022</div>
+              <div class="festivals__window-descr">UPark Festival - це високий рівень артистів і особлива атмосфера,
+                це
+                глядачі, для яких музика - невід'ємна частина життя.</div>
+              <div class="festivals__window-location">Київ,Україна</div>
+              <div class="festivals__window-price"><b>1649 грн</b>
+              </div>
+              <button class="festivals__window-button">Купити квиток</button>
+            </div>
+          </div>
+        </div>
+        <div id="fest10" class="festivals__window">
+          <div class="festivals-descr">
+            <div class="festivals__window-box-column">
+              <div class="festivals__window-date">2022.6.19</div>
+              <div class="festivals__window-title">UPARK 2022</div>
+              <div class="festivals__window-descr">UPark Festival - це високий рівень артистів і особлива атмосфера,
+                це
+                глядачі, для яких музика - невід'ємна частина життя.</div>
+              <div class="festivals__window-location">Київ,Україна</div>
+              <div class="festivals__window-price"><b>1649 грн</b>
+              </div>
+              <button class="festivals__window-button">Купити квиток</button>
+            </div>
+          </div>
+        </div>
+        <div id="fest11" class="festivals__window">
+          <div class="festivals-descr">
+            <div class="festivals__window-box-column">
+              <div class="festivals__window-date">2022.6.19</div>
+              <div class="festivals__window-title">UPARK 2022</div>
+              <div class="festivals__window-descr">UPark Festival - це високий рівень артистів і особлива атмосфера,
+                це
+                глядачі, для яких музика - невід'ємна частина життя.</div>
+              <div class="festivals__window-location">Київ,Україна</div>
+              <div class="festivals__window-price"><b>1649 грн</b>
+              </div>
+              <button class="festivals__window-button">Купити квиток</button>
+            </div>
+          </div>
+        </div>
+        <div id="fest12" class="festivals__window">
+          <div class="festivals-descr">
+            <div class="festivals__window-box-column">
+              <div class="festivals__window-date">2022.6.19</div>
+              <div class="festivals__window-title">UPARK 2022</div>
+              <div class="festivals__window-descr">UPark Festival - це високий рівень артистів і особлива атмосфера,
+                це
+                глядачі, для яких музика - невід'ємна частина життя.</div>
+              <div class="festivals__window-location">Київ,Україна</div>
+              <div class="festivals__window-price"><b>1649 грн</b>
+              </div>
+              <button class="festivals__window-button">Купити квиток</button>
+            </div>
+          </div>
+        </div>
       </div>
-      </div>
-      </div>
-      <div class="festivals__window">
-      <div class="festivals-descr">
-      <div class="festivals__window-box">
-      <div class="festivals__window-descr">Короткий опис</div>
-      <button class="festivals__window-button">Details</button>
-      </div>
-      </div>
-      </div>
-      <div class="festivals__window">
-      <div class="festivals-descr">
-      <div class="festivals__window-box">
-      <div class="festivals__window-descr">Короткий опис</div>
-      <button class="festivals__window-button">Details</button>
-      </div>
-      </div>
-      </div>
-      <div class="festivals__window">
-      <div class="festivals-descr">
-      <div class="festivals__window-box">
-      <div class="festivals__window-descr">Короткий опис</div>
-      <button class="festivals__window-button">Details</button>
-      </div>
-      </div>
-      </div>
-      </div>
-      <!--  </div> -->
-      </div>
+    </div>
 
-      <div class="box">
+    <div class="box">
       <div class="advertisement">Крута реклама</div>
-      </div>
+    </div>
 
+    <div class="title box">IN UKRAINE</div>
 
-      <div class="box">
+    <div class="box">
       <div class="festivals">
-      <div class="small-festivals__window">
-      <div class="descr">Короткий опис</div>
-      </div>
-      <div class="small-festivals__window">
-      <div class="descr">Короткий опис</div>
-      </div>
-      <div class="small-festivals__window">
-      <div class="descr">Короткий опис</div>
-      </div>
-      <div class="small-festivals__window">
-      <div class="descr">Короткий опис</div>
-      </div>
-      <div class="small-festivals__window">
-      <div class="descr">Короткий опис</div>
-      </div>
-      <div class="small-festivals__window">
-      <div class="descr">Короткий опис</div>
-      </div>
-      </div>
-      </div>
-
-      <div class="title box">IN YOUR CITY</div>
-
-      <div class="box">
-      <div class="festivals">
-      <!--  <div class="festivals__column"> -->
-      <div class="festivals__window">
-      <div class="festivals-descr">
-      <div class="festivals__window-box">
-      <div class="festivals__window-descr">Короткий опис</div>
-      <button class="festivals__window-button">Details</button>
-      </div>
-      </div>
-      </div>
-      <div class="festivals__window">
-      <div class="festivals-descr">
-      <div class="festivals__window-box">
-      <div class="festivals__window-descr">Короткий опис</div>
-      <button class="festivals__window-button">Details</button>
-      </div>
-      </div>
-      </div>
-      <div class="festivals__window">
-      <div class="festivals-descr">
-      <div class="festivals__window-box">
-      <div class="festivals__window-descr">Короткий опис</div>
-      <button class="festivals__window-button">Details</button>
-      </div>
-      </div>
-      </div>
-      <div class="festivals__window">
-      <div class="festivals-descr">
-      <div class="festivals__window-box">
-      <div class="festivals__window-descr">Короткий опис</div>
-      <button class="festivals__window-button">Details</button>
-      </div>
-      </div>
-      </div>
-      </div>
-      <!--  </div> -->
-      </div>
-</main>
-
-
-    <footer>
-      <div class="main-container">
-        <div class="footer__top">
-          <div class="footer__left">
-            <h1 >Project Venera official website</h1>
-            <div  class=""> Award-winning festival lookup website </div>
-          </div>
-
-          <div  class="footer__socials">
-            <a  href="#"><img  src="assets/social/facebook.png"></a>
-            <a  href="#"><img  src="assets/social/telegram.png"></a>
-            <a  href="#"><img  src="assets/social/instagram.png"></a>
-            <a  href="#"><img  src="assets/social/github.png"></a>
-          </div>
+        <div id="fest13" class="small-festivals__window">
+          <div class="descr">Короткий опис</div>
         </div>
-        <div class="footer__bottom">
-          <div> © 2021 Orange Capes. All rights reserved. </div>
+        <div id="fest14"class="small-festivals__window">
+          <div class="descr">Короткий опис</div>
+        </div>
+        <div id="fest15" class="small-festivals__window">
+          <div class="descr">Короткий опис</div>
+        </div>
+        <div id="fest16" class="small-festivals__window">
+          <div class="descr">Короткий опис</div>
+        </div>
+        <div id="fest17" class="small-festivals__window">
+          <div class="descr">Короткий опис</div>
+        </div>
+        <div id="fest18" class="small-festivals__window">
+          <div class="descr">Короткий опис</div>
         </div>
       </div>
-    </footer>
+    </div>
 
-  </body>
+    <!-- <div class="title box">IN YOUR CITY</div> -->
+
+    <!-- <div class="box">
+      <div class="festivals">
+      <div class="festivals__window">
+      <div class="festivals-descr">
+      <div class="festivals__window-box">
+      <div class="festivals__window-descr">Короткий опис</div>
+      <button class="festivals__window-button">Details</button>
+      </div>
+      </div>
+      </div>
+      <div class="festivals__window">
+      <div class="festivals-descr">
+      <div class="festivals__window-box">
+      <div class="festivals__window-descr">Короткий опис</div>
+      <button class="festivals__window-button">Details</button>
+      </div>
+      </div>
+      </div>
+      <div class="festivals__window">
+      <div class="festivals-descr">
+      <div class="festivals__window-box">
+      <div class="festivals__window-descr">Короткий опис</div>
+      <button class="festivals__window-button">Details</button>
+      </div>
+      </div>
+      </div>
+      <div class="festivals__window">
+      <div class="festivals-descr">
+      <div class="festivals__window-box">
+      <div class="festivals__window-descr">Короткий опис</div>
+      <button class="festivals__window-button">Details</button>
+      </div>
+      </div>
+      </div>
+      </div>
+       </div>
+      </div> -->
+  </main>
+
+
+  <footer>
+    <div class="main-container">
+      <div class="footer__top">
+        <div class="footer__left">
+          <h1>Project Venera official website</h1>
+          <div class=""> Award-winning festival lookup website </div>
+        </div>
+
+        <div class="footer__socials">
+          <a href="#"><img src="assets/social/facebook.png"></a>
+          <a href="#"><img src="assets/social/telegram.png"></a>
+          <a href="#"><img src="assets/social/instagram.png"></a>
+          <a href="#"><img src="assets/social/github.png"></a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <div> © 2021 Orange Capes. All rights reserved. </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
 </html>
