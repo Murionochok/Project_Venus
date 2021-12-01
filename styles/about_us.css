@@ -87,28 +87,28 @@ h1{
 	
 }
 .inst{
-    background:url('../photos/instagram.png') no-repeat center / cover;
+    background:url('../assets/social/instagram.png') no-repeat center / cover;
     width: 125px;
 	height: 125px;
 	transition: all 0.5s;
 	overflow: hidden;
 }
 .face{
-    background:transparent url('../photos/facebook.png') no-repeat center / cover;
+    background:transparent url('../assets/social/facebook.png') no-repeat center / cover;
     width: 125px;
 	height: 125px;
 	transition: all 0.5s;
 	overflow: hidden;
 }
 .tel{
-    background:transparent url('../photos/telegram.png') no-repeat center / cover;
+    background:transparent url('../assets/social/telegram.png') no-repeat center / cover;
     width:  125px;
 	height:  125px;
 	transition: all 0.5s;
 	overflow: hidden;
 }
 .github{
-    background:transparent url('../photos/github.png') no-repeat center / cover;
+    background:transparent url('../assets/social/github.png') no-repeat center / cover;
     width: 125px;
 	height:  125px;
 	transition: all 0.5s;
