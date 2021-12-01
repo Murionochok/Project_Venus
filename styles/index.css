@@ -295,11 +295,23 @@ footer{
 .footer__top {
 	display: flex;
 	flex-flow: column nowrap;
+	flex-direction: row;
+
 }
 
 .footer__socials {
+	margin: 25px 0 0 auto;
+	width:50%;
 	display: flex;
-	align-items: center;
+	align-content: center;
+	justify-content: space-evenly;
+	box-shadow: white;
+	flex-direction: row;
+}
+.footer__text {
+	width:60%;
+	display: flex;
+	align-items: left;
 	justify-content: space-evenly;
 	box-shadow: white;
 }
