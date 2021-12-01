@@ -84,7 +84,6 @@ img {
 .festivals__window{
 	width: 300px;
 	height: 450px;
-	background: url('../photos/petar-avramoski-VzPqBD-UawI-unsplash.jpg') no-repeat center / cover;
 	margin-top: 10px;
 	margin-bottom: 110px;
 	transition: all 0.5s;
@@ -142,7 +141,6 @@ img {
 .small-festivals__window{
 	width: 200px;
 	height: 300px;
-	background: url('../photos/petar-avramoski-VzPqBD-UawI-unsplash.jpg') no-repeat center / cover;
 	margin-top: 10px;
 	margin-bottom: 80px;
 	transition: all .5s;
@@ -273,7 +271,12 @@ img {
 	width: 80%;
 	margin: 0 auto;
 	margin-bottom: 100px;
-	background: url('../photos/the-organic-crave-company-ES29lILReC0-unsplash.jpg') no-repeat center/cover;
+}
+#add1{
+	background: url('../Advertising/Реклама.png') no-repeat center / cover;
+}
+#add2{
+	background: url('../Advertising/Реклама\ НУЛП.png') no-repeat center / cover;
 }
 
 
