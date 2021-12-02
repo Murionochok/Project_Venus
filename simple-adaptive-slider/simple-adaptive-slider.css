@@ -8,7 +8,7 @@
 .slider {
   position: relative;
   overflow: hidden;
-  max-width: 80vw;
+  max-width: 100vw;
   margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
