@@ -287,16 +287,16 @@ export const festivals = [
         "imageLink": 'Festival_photos/24.png',
         "LinkToOffSite":'http://fest-portal.com/ev/syajvo-rizdvyanih-zirok-do-dnya-sv-mikolaya-mizhnarodnij-festival-mistetstv-m-kiyiv/',
     },
-    {
-        "id": '25',
-        "title": '. «Планета Dance Festival» – Всеукраїнський фестиваль-конкурс хореографічних мистецтв',
-        "description": 'Всеукраїнський фестиваль-конкурс хореографічних мистецтв.',
-        "location": 'Запоріжжя, ДК Орбіта',
-        "price": '500 грн.',
-        "startDate": new Date(2021, 12, 19).toLocaleDateString("en-US"),
-        "endDate": new Date(2021, 12, 19).toLocaleDateString("en-US"),
-        "hasTentPlace": true,
-        "imageLink": 'Festival_photos/25.png',
-        "LinkToOffSite":'http://fest-portal.com/ev/planeta-dance-festival-vseukrayinskij-festival-konkurs-horeografichnih-mistetstv/',
-    }
+    // {
+    //     "id": '25',
+    //     "title": '. «Планета Dance Festival» – Всеукраїнський фестиваль-конкурс хореографічних мистецтв',
+    //     "description": 'Всеукраїнський фестиваль-конкурс хореографічних мистецтв.',
+    //     "location": 'Запоріжжя, ДК Орбіта',
+    //     "price": '500 грн.',
+    //     "startDate": new Date(2021, 12, 19).toLocaleDateString("en-US"),
+    //     "endDate": new Date(2021, 12, 19).toLocaleDateString("en-US"),
+    //     "hasTentPlace": true,
+    //     "imageLink": 'Festival_photos/25.png',
+    //     "LinkToOffSite":'http://fest-portal.com/ev/planeta-dance-festival-vseukrayinskij-festival-konkurs-horeografichnih-mistetstv/',
+    // }
 ];
