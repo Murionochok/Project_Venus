@@ -98,11 +98,7 @@ img {
 /*}*/
 
 #fest1{
-<<<<<<< HEAD
 	background: url('../Festival_photos/1.jpg') no-repeat center / cover;
-=======
-	background: url('/photos/gollum.png') no-repeat center / cover;
->>>>>>> bd8c72cce4f60efd6666b7cb436051794bda0cd0
 }
 
 #fest2{
@@ -193,58 +189,6 @@ img {
 	transition: all .5s;
 }
 
-<<<<<<< HEAD
-=======
-#fest13{
-	background: url('../Festival_photos/13.png') no-repeat center / cover;
-}
-
-#fest14{
-	background: url('../Festival_photos/14.png') no-repeat center / cover;
-}
-
-#fest15{
-	background: url('../Festival_photos/15.png') no-repeat center / cover;
-}
-
-#fest16{
-	background: url('../Festival_photos/16.png') no-repeat center / cover;
-}
-
-#fest17{
-	background: url('../Festival_photos/17.png') no-repeat center / cover;
-}
-
-#fest18{
-	background: url('../photos/gollum.png') no-repeat center / cover;
-}
-
-#fest19{
-	background: url('../photos/gollum.png') no-repeat center / cover;
-}
-
-#fest20{
-	background: url('../photos/gollum.png') no-repeat center / cover;
-}
-
-#fest21{
-	background: url('../photos/gollum.png') no-repeat center / cover;
-}
-
-#fest22{
-	background: url('../photos/gollum.png') no-repeat center / cover;
-}
-
-#fest23{
-	background: url('../photos/gollum.png') no-repeat center / cover;
-}
-
-#fest24{
-	background: url('../photos/gollum.png') no-repeat center / cover;
-}
-
-
->>>>>>> bd8c72cce4f60efd6666b7cb436051794bda0cd0
 .small-festivals__window:hover{
 	box-shadow: 10px 14px 20px grey;
 	transform: scale(1.04);
