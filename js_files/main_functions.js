@@ -52,7 +52,7 @@ function onStart() {
         let smallHtmlBlock = `
         <div id="fest${festival.id}" class="small-festivals__window">
           <div class="card-header"></div>
-          <div class="descr">${festival.title}</div>
+          <a href="${festival.LinkToOffSite}" class="descr"></a>
         </div>`;
         if(this_month.includes(JSON.parse(festival.id))){
             value_for_this_month += htmlBlock;
