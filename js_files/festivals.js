@@ -8,7 +8,7 @@ export const festivals = [
         "startDate": new Date(2022, 6, 19).toLocaleDateString("en-US"),
         "endDate": new Date(2022, 7, 17).toLocaleDateString("en-US"),
         "hasTentPlace": true,
-        "imageLink": 'Festival_photos/1.png',
+        "imageLink": 'Festival_photos/1.jpg',
         "LinkToOffSite": 'https://concert.ua/uk/event/upark',
     },
     {
@@ -20,7 +20,7 @@ export const festivals = [
         "startDate": new Date(2021, 11, 4).toLocaleDateString("en-US"),
         "endDate": new Date(2021, 11, 5).toLocaleDateString("en-US"),
         "hasTentPlace": true,
-        "imageLink": 'Festival_photos/2.png',
+        "imageLink": 'Festival_photos/2.jpg',
         "LinkToOffSite":'https://concert.ua/uk/event/osocor-winter-residence',
     },
     {
@@ -32,7 +32,7 @@ export const festivals = [
         "startDate": new Date(2022, 6, 25).toLocaleDateString("en-US"),
         "endDate": new Date(2022, 6, 28).toLocaleDateString("en-US"),
         "hasTentPlace": true,
-        "imageLink": 'Festival_photos/3.png',
+        "imageLink": 'Festival_photos/3.jpg',
         "LinkToOffSite":'https://soldout.ua/event/622-thekomakoma?lang=ua',
     },
     {
@@ -44,7 +44,7 @@ export const festivals = [
         "startDate": new Date(2021, 11, 3).toLocaleDateString("en-US"),
         "endDate": new Date(2021, 11, 3).toLocaleDateString("en-US"),
         "hasTentPlace": true,
-        "imageLink": 'Festival_photos/4.png',
+        "imageLink": 'Festival_photos/4.jpg',
         "LinkToOffSite":'https://concert.ua/uk/event/interior-goda-2021',
     },
     {
@@ -56,7 +56,7 @@ export const festivals = [
         "startDate": new Date(2021, 11, 25).toLocaleDateString("en-US"),
         "endDate": new Date(2021, 11, 25).toLocaleDateString("en-US"),
         "hasTentPlace": true,
-        "imageLink": 'Festival_photos/5.png',
+        "imageLink": 'Festival_photos/5.jpg',
         "LinkToOffSite":'https://balloonfest.com.ua',
     },
     {
@@ -68,7 +68,7 @@ export const festivals = [
         "startDate": new Date(2022, 7, 17).toLocaleDateString("en-US"),
         "endDate": new Date(2022, 7, 17).toLocaleDateString("en-US"),
         "hasTentPlace": true,
-        "imageLink": 'Festival_photos/6.png',
+        "imageLink": 'Festival_photos/6.jpg',
         "LinkToOffSite":'http://fest-portal.com/ev/kiten-art-time-mezhdunarodnyj-festival-iskusstv/',
     },
     {
@@ -80,7 +80,7 @@ export const festivals = [
         "startDate": new Date(2022, 6, 25).toLocaleDateString("en-US"),
         "endDate": new Date(2022, 6, 28).toLocaleDateString("en-US"),
         "hasTentPlace": true,
-        "imageLink": 'Festival_photos/7.png',
+        "imageLink": 'Festival_photos/7.jpg',
         "LinkToOffSite":'http://fest-portal.com/ev/mezhdunarodnyj-zvezdy-vyhodyat-na-stsenu-festival-konkurs-iskusstv/',
     },
     {
@@ -92,7 +92,7 @@ export const festivals = [
         "startDate": new Date(2022, 6, 25).toLocaleDateString("en-US"),
         "endDate": new Date(2022, 6, 28).toLocaleDateString("en-US"),
         "hasTentPlace": true,
-        "imageLink": 'Festival_photos/8.png',
+        "imageLink": 'Festival_photos/8.jpg',
         "LinkToOffSite":'https://soldout.ua/event/599-zaxidfest?lang=ua',
     },
     {
@@ -104,7 +104,7 @@ export const festivals = [
         "startDate": new Date(2022, 7, 28).toLocaleDateString("en-US"),
         "endDate": new Date(2022, 7, 28).toLocaleDateString("en-US"),
         "hasTentPlace": true,/////
-        "imageLink": 'Festival_photos/9.png',
+        "imageLink": 'Festival_photos/9.jpg',
         "LinkToOffSite":'https://soldout.ua/event/635-festival-faine-misto-2022?lang=ua',
     },
     {
@@ -116,7 +116,7 @@ export const festivals = [
         "startDate": new Date(2022, 6, 25).toLocaleDateString("en-US"),
         "endDate": new Date(2022, 6, 28).toLocaleDateString("en-US"),
         "hasTentPlace": true,
-        "imageLink": 'Festival_photos/10.png',
+        "imageLink": 'Festival_photos/10.jpg',
         "LinkToOffSite":'http://fest-portal.com/ev/bukovina-folk-dance-iii-j-mizhnarodnij-festival-narodnogo-tantsyu/',
     },
     {
@@ -128,7 +128,7 @@ export const festivals = [
         "startDate": new Date(2022, 4, 28).toLocaleDateString("en-US"),
         "endDate": new Date(2022, 5, 5).toLocaleDateString("en-US"),
         "hasTentPlace": true,
-        "imageLink": 'Festival_photos/11.png',
+        "imageLink": 'Festival_photos/11.jpg',
         "LinkToOffSite":'http://fest-portal.com/ev/v-mizhnarodnij-festival-konkurs-mistetstv-gold-art-fest-turechchina-z-28kvitnya-po-5-travnya-2022-roku-gotel-armas-kaplan-paradise-5/',
     },
     {
@@ -140,7 +140,7 @@ export const festivals = [
         "startDate": new Date(2022, 4, 25).toLocaleDateString("en-US"),
         "endDate": new Date(2022, 4, 27).toLocaleDateString("en-US"),
         "hasTentPlace": true,//
-        "imageLink": 'Festival_photos/12.png',
+        "imageLink": 'Festival_photos/12.jpg',
         "LinkToOffSite":'http://fest-portal.com/ev/lviv-show-time-25-27-bereznya-2022-r/',
     },
     {
@@ -152,7 +152,7 @@ export const festivals = [
         "startDate": new Date(2022, 2, 5).toLocaleDateString("en-US"),
         "endDate": new Date(2022, 2, 6).toLocaleDateString("en-US"),
         "hasTentPlace": true,///////////////////////////////////
-        "imageLink": 'Festival_photos/13.png',
+        "imageLink": 'Festival_photos/13.jpg',
         "LinkToOffSite":'http://fest-portal.com/ev/mizhnarodnij-konkurs-festival-mistetstv-pidkori-stsenu-ochna-ta-distantsijna-uchast/',
     },
     {
@@ -164,7 +164,7 @@ export const festivals = [
         "startDate": new Date(2022, 1, 8).toLocaleDateString("en-US"),
         "endDate": new Date(2022, 1, 8).toLocaleDateString("en-US"),
         "hasTentPlace": true,//
-        "imageLink": 'Festival_photos/14.png',
+        "imageLink": 'Festival_photos/14.jpg',
         "LinkToOffSite":'http://fest-portal.com/ev/mizhnarodnij-dvoturovij-bagatozhanrovij-festival-konkurs-rizdvyana-zirka/',
     },
     {
@@ -176,7 +176,7 @@ export const festivals = [
         "startDate": new Date(2021, 12, 31).toLocaleDateString("en-US"),
         "endDate": new Date(2022, 1, 5).toLocaleDateString("en-US"),
         "hasTentPlace": true,///////
-        "imageLink": 'Festival_photos/15.png',
+        "imageLink": 'Festival_photos/15.jpg',
         "LinkToOffSite":'http://fest-portal.com/ev/mizhnarodnij-festival-konkurs-mistetstv-novorichne-spivzvuchchya-2021-new-year-s-consonance-2021-ladislavoyu-lyubimovoyu/',
     },
     {
@@ -188,7 +188,7 @@ export const festivals = [
         "startDate": new Date(2022, 12, 27).toLocaleDateString("en-US"),
         "endDate": new Date(2022, 12, 27).toLocaleDateString("en-US"),
         "hasTentPlace": true,//////
-        "imageLink": 'Festival_photos/16.png',
+        "imageLink": 'Festival_photos/16.jpg',
         "LinkToOffSite":'http://fest-portal.com/ev/iv-vseukrayinskij-horovij-festival-rizdvyanoyi-muziki-victoria/',
     },
     {
@@ -200,7 +200,7 @@ export const festivals = [
         "startDate": new Date(2021, 12, 26).toLocaleDateString("en-US"),
         "endDate": new Date(2021, 12, 26).toLocaleDateString("en-US"),
         "hasTentPlace": true,
-        "imageLink": 'Festival_photos/17.png',
+        "imageLink": 'Festival_photos/17.jpg',
         "LinkToOffSite":'http://fest-portal.com/ev/vseukrayinskij-festival-konkurs-talanovitij-ya/',
     },
     {
@@ -212,7 +212,7 @@ export const festivals = [
         "startDate": new Date(2021, 12, 25).toLocaleDateString("en-US"),
         "endDate": new Date(2021, 12, 25).toLocaleDateString("en-US"),
         "hasTentPlace": true,
-        "imageLink": 'Festival_photos/18.png',
+        "imageLink": 'Festival_photos/18.jpg',
         "LinkToOffSite":'http://fest-portal.com/ev/mizhnarodnij-festival-konkurs-mistetstv-soloviov-art-xi/',
     },
     {
@@ -224,7 +224,7 @@ export const festivals = [
         "startDate": new Date(2021, 12, 25).toLocaleDateString("en-US"),
         "endDate": new Date(2021, 12, 25).toLocaleDateString("en-US"),
         "hasTentPlace": false,
-        "imageLink": 'Festival_photos/19.png',
+        "imageLink": 'Festival_photos/19.jpg',
         "LinkToOffSite":'http://superstar.org.ua',
     },
     {
@@ -236,7 +236,7 @@ export const festivals = [
         "startDate": new Date(2022, 5, 14).toLocaleDateString("en-US"),
         "endDate": new Date(2022, 5, 15).toLocaleDateString("en-US"),
         "hasTentPlace": false,
-        "imageLink": 'Festival_photos/20.png',
+        "imageLink": 'Festival_photos/20.jpg',
         "LinkToOffSite":'http://spacestar.kiev.ua',
     },
     {
@@ -248,7 +248,7 @@ export const festivals = [
         "startDate": new Date(2021, 12, 19).toLocaleDateString("en-US"),
         "endDate": new Date(2021, 12, 19).toLocaleDateString("en-US"),
         "hasTentPlace": true,
-        "imageLink": 'Festival_photos/21.png',
+        "imageLink": 'Festival_photos/24.png',
         "LinkToOffSite":'http://fest-portal.com/ev/festival-konkurs-lavina-talantiv/',
     },
     {
@@ -260,7 +260,7 @@ export const festivals = [
         "startDate": new Date(2021, 12, 24).toLocaleDateString("en-US"),
         "endDate": new Date(2021, 12, 26).toLocaleDateString("en-US"),
         "hasTentPlace": true,
-        "imageLink": 'Festival_photos/22.png',
+        "imageLink": 'Festival_photos/21.png',
         "LinkToOffSite":'http://fest-portal.com/ev/winter-fest-24-26-grudnya-2021-r-sonyachna-dolina/',
     },
     {
@@ -272,7 +272,7 @@ export const festivals = [
         "startDate": new Date(2021, 12, 23).toLocaleDateString("en-US"),
         "endDate": new Date(2021, 12, 26).toLocaleDateString("en-US"),
         "hasTentPlace": true,////
-        "imageLink": 'Festival_photos/23.png',
+        "imageLink": 'Festival_photos/22.png',
         "LinkToOffSite":'http://fest-portal.com/ev/rizdvyana-zirka-2021-mizhnarodnij-festival-konkurs-mistetstv-z-ladislava-lyubimova/',
     },
     {
@@ -284,7 +284,7 @@ export const festivals = [
         "startDate": new Date(2021, 12, 19).toLocaleDateString("en-US"),
         "endDate": new Date(2021, 12, 19).toLocaleDateString("en-US"),
         "hasTentPlace": true,/////////////////////////////////
-        "imageLink": 'Festival_photos/24.png',
+        "imageLink": 'Festival_photos/23.png',
         "LinkToOffSite":'http://fest-portal.com/ev/syajvo-rizdvyanih-zirok-do-dnya-sv-mikolaya-mizhnarodnij-festival-mistetstv-m-kiyiv/',
     },
     // {

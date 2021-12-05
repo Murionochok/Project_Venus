@@ -25,7 +25,7 @@ let festivalBlock = document.getElementsByClassName('big-festival-container');
 
 function onStart() {
 
-    let this_month = [21, 22, 23, 24];
+    let this_month = [2, 22, 23, 24];
     let popular = [1, 3, 5, 7];
     let ukraine = [1, 7, 3, 4, 5, 6];
 
