@@ -8,7 +8,7 @@ export const festivals = [
         "startDate": new Date(2022, 6, 19).toLocaleDateString("en-US"),
         "endDate": new Date(2022, 7, 17).toLocaleDateString("en-US"),
         "hasTentPlace": true,
-        "imageLink": 'Festival_photos/1.png',
+        "imageLink": 'photos/gollum.png',
         "LinkToOffSite": 'https://concert.ua/uk/event/upark',
     },
     {

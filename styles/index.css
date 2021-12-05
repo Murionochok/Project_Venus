@@ -94,7 +94,7 @@ img {
 /*}*/
 
 #fest1{
-	background: url('../Festival_photos/UPark 2022.jpg') no-repeat center / cover;
+	background: url('/photos/gollum.png') no-repeat center / cover;
 }
 
 #fest2{
@@ -170,8 +170,33 @@ img {
 }
 
 #fest18{
-	background: url('../Festival_photos/18.png') no-repeat center / cover;
+	background: url('../photos/gollum.png') no-repeat center / cover;
 }
+
+#fest19{
+	background: url('../photos/gollum.png') no-repeat center / cover;
+}
+
+#fest20{
+	background: url('../photos/gollum.png') no-repeat center / cover;
+}
+
+#fest21{
+	background: url('../photos/gollum.png') no-repeat center / cover;
+}
+
+#fest22{
+	background: url('../photos/gollum.png') no-repeat center / cover;
+}
+
+#fest23{
+	background: url('../photos/gollum.png') no-repeat center / cover;
+}
+
+#fest24{
+	background: url('../photos/gollum.png') no-repeat center / cover;
+}
+
 
 .small-festivals__window:hover{
 	box-shadow: 10px 14px 20px grey;
